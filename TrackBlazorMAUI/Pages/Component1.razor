@@ -1,0 +1,366 @@
+﻿@page "/component1"
+@using Newtonsoft.Json
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Map with Driving Route from A to B</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Main Page</title>
+</head>
+<style type="text/css">
+
+  /*  #panel {
+        width: 100%;
+        height: 400px;
+    }*/
+    #panel {
+    display: block;
+    width: 95%;
+    min-height: 450px;
+    max-height: 450px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    color:red;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+    .directions li span.arrow {
+        display: inline-block;
+        min-width: 28px;
+        min-height: 28px;
+        background-position: 0px;
+        background-image: url("https://heremaps.github.io/maps-api-for-javascript-examples/map-with-route-from-a-to-b/img/arrows.png");
+        position: relative;
+        top: 8px;
+    }
+
+    .directions li span.depart {
+        background-position: -28px;
+    }
+
+    .directions li span.rightturn {
+        background-position: -224px;
+    }
+
+    .directions li span.leftturn {
+        background-position: -252px;
+    }
+
+    .directions li span.arrive {
+        background-position: -1288px;
+    }
+
+      /*.log {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        height: 150px;
+        width: 250px;
+        overflow: scroll;
+        background: white;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 12px;
+      }
+      .log-entry {
+        padding: 5px;
+        border-bottom: 1px solid #d0d9e9;
+      }
+      .log-entry:nth-child(odd) {
+          background-color: #e1e7f1;
+      }*/
+    </style>
+  
+  <body id="markers-on-the-map">
+    <div class="container" style="background:#2F2F2F;">
+        <div class="row justify-content-center">
+            <div class="phone_screen col-12 col-sm-8 col-md-8 col-lg-8">
+                <div class="map_sf_bg" id="map"></div>
+                <div class="phone_header col-11 col-sm-11 col-md-11 col-lg-11">
+                    <div class="phone_status">
+                        <div class="phone_status_bar"></div>
+                    </div>
+                </div>
+                <div class="navbar_header_bg col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="navbar_rectangle col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="navbar_hello_text col-8 col-sm-8 col-md-8 col-lg-8">
+                            <p>Hello, Maxat</p>
+                        </div>
+                        <div class="navbar_choose_trip_text col-8 col-sm-8 col-md-8 col-lg-8">
+                            <p>Choose your Trip</p>
+                        </div>
+                          @*  <div id="panel"></div>*@
+                        <div class="navbar_search_bg col-11 col-sm-11 col-md-11 col-lg-11">
+                            <input type="search" id="searchfrom" name="searchfrom" class="navbar_search_field navbar_search_text col-11 col-sm-11 col-md-11 col-lg-11" @bind="myVariable" style="margin-top:-50px;" placeholder=" Search from">
+                            <input type="search" id="searchfromcoord" name="searchfromcoord" hidden class="navbar_search_field navbar_search_text col-11 col-sm-11 col-md-11 col-lg-11" @bind="myVariable" style="margin-top:-50px;" placeholder=" Search from">
+                            <input type="search" id="searchto" name="searchto" class="navbar_search_field navbar_search_text col-11 col-sm-11 col-md-11 col-lg-11" placeholder=" Search to">
+                            <input type="search" id="searchtocoord" name="searchtocoord" hidden class="navbar_search_field navbar_search_text col-11 col-sm-11 col-md-11 col-lg-11" placeholder=" Search to">
+                            <div class="navbar_search_logo_bg">
+                                <i class="bi bi-search"></i>
+                            </div>
+                            <a href="#" class="navbar_search_mic_bg">
+                                <i class="bi bi-mic"></i>
+                            </a>
+                            <div class="navbar_search_logo_bg" style="margin-top:-50px;">
+                                <i class="bi bi-search"></i>
+                            </div>
+                            <a @onclick="GetCurrentLocation" class="navbar_search_mic_bg" style="margin-top:-50px;margin-left:-20px;">
+                            <i class="bi bi-geo-alt"></i>
+                            </a>
+                            <a href="#" class="navbar_search_mic_bg" style="margin-top:-50px">
+                                
+                                  <i class="bi bi-mic"></i>
+                            </a>
+                           
+
+                        </div>
+
+                        <div class="navbar_avatar_bg">
+                            <div class="navbar_avatar"></div>
+                            <div class="navbar_avatar_status"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scrolling-wrapper col-11 col-sm-11 col-md-11 col-lg-11" id="scroll">
+                    <div class="truckstop_button_field">
+                        <a href="#" class="mainpage_area_button">
+                            <div class="mainpage_area_button_text">
+                                <div class="stops_icon scroll_icon_position"></div><p>Truck Stops</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="parking_area_button_field">
+                        <a href="#" class="mainpage_area_button">
+                            <div class="mainpage_area_button_text">
+                                <div class="parking_icon scroll_icon_position"></div><p>Parking area</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="repair_shop_button_field">
+                        <a href="#" class="mainpage_area_button">
+                            <div class="mainpage_area_button_text">
+                                <div class="repair_icon scroll_icon_position"></div><p>Repair Shops</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="left_icons_area">
+                    <div class="left_icons_bg">
+                        <a href="#" class="find_way_icon_field">
+                            <div class="find_way_icon_subtract">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="left_icons_bg">
+                        <a href="#" class="latest_place_icon_field">
+                            <div class="latest_place_icon"></div>
+                        </a>
+                    </div>
+                    <div class="left_icons_bg">
+                        <a href="#" class="saved_place_icon_field">
+                            <div class="saved_place_icon"></div>
+                        </a>
+                    </div>
+                    <div class="left_icons_bg">
+                        <a href="#" class="add_place_icon_field">
+                            <div class="add_place_icon"></div>
+                        </a>
+                    </div>
+
+                    <div class="left_icons_bg">
+                        <a href="#" class="truck_icon_field">
+                            <div class="truck_icon"></div>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="location_icon_field">
+                    <div class="location_icon"></div>
+                </a>
+                <a href="#" class="map_icon_field">
+                    <div class="map_icon"></div>
+                </a>
+            </div>
+        </div>
+        <div id="panel"></div>
+        <div class="container row">
+            <div class="col-md-12 col-sm-12">
+                <button onclick="geocode('searchfrom')" style="width:10%;height:10%" class="btn btn-lg btn-primary"> GetAddressFrom</button>
+
+                <button onclick="geocode('searchto')" style="width:10%;height:10%" class="btn btn-lg btn-primary"> GetAddressTo</button>
+            </div>
+             <div class="col-md-12 col-sm-12">
+                <button onclick="GetMaps()" id="
+" style="width:10%;height:10%" class="btn btn-lg btn-primary"> ClickME</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@code {
+
+    [Inject]
+    private IJSRuntime JsRuntime { get; set; }
+
+    private string myVariable;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            //var locationStatus = await Permissions.RequestAsync<Permissions.LocationWhenInUse>().ConfigureAwait(false);
+            //var location = await Geolocation.GetLastKnownLocationAsync();
+            //await JsRuntime.InvokeVoidAsync("GetMaps",location.Latitude,location.Longitude);
+            //await JsRuntime.InvokeVoidAsync("GetMaps");
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+
+    public class Root
+    {
+        public string lat { get; set; }
+        public string lng { get; set; }
+    }
+    public string Coordinates { get; set; }
+    private Root rt;
+
+    [JSInvokable("SetCoordinates")]
+    public static Task SetCoordinates(object coord)
+    {
+        try
+        {
+            var str = coord.ToString();
+            Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(str);
+
+            //myInput = myDeserializedClass.lat + ", " + myDeserializedClass.lng;
+            //myInput.SetAsync("value", $"{myDeserializedClass.lat}, {myDeserializedClass.lng}");
+            //InvokeAsync(() => { StateHasChanged(); });
+
+        }
+        catch(Exception ex)
+        {
+
+        }
+
+        return Task.CompletedTask;
+    }
+
+    public async void GetMapLocation()
+    {
+        Location location = new Location();
+        try
+        {
+            var locationStatus = await Permissions.RequestAsync<Permissions.LocationWhenInUse>().ConfigureAwait(false);
+            var status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+                if (status == PermissionStatus.Granted)
+                {
+                    var request = new GeolocationRequest(GeolocationAccuracy.High);
+                    location = await Geolocation.GetLocationAsync(request);
+                }
+
+
+            }
+
+            if (status == PermissionStatus.Granted)
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.High);
+                location = await Geolocation.GetLocationAsync(request);
+            }
+
+        }
+
+        catch (Exception ex)
+        {
+
+        }
+
+        myVariable = location.Latitude.ToString() + " " + location.Longitude.ToString();
+    }
+
+
+    public async void GetCurrentLocation()
+    {
+        Location location = new Location();
+        PermissionStatus status = new PermissionStatus();
+        try
+        {
+
+            var locationStatus = await Permissions.RequestAsync<Permissions.LocationWhenInUse>().ConfigureAwait(false);
+            await Device.InvokeOnMainThreadAsync(async () =>
+            {
+             status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+            });
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+            }
+
+            if (status == PermissionStatus.Granted)
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.High);
+                
+                await Device.InvokeOnMainThreadAsync(async () =>
+                {
+                    location = await Geolocation.GetLocationAsync(request);
+                });
+            }
+
+        }
+
+        catch (Exception ex)
+        {
+
+        }
+
+        myVariable = location.Latitude.ToString() + " " + location.Longitude.ToString();
+    }
+
+    public async Task<Location> GetLocation()
+    {
+
+        var location = await Geolocation.GetLastKnownLocationAsync();
+        try
+        {
+            var locationStatus = await Permissions.RequestAsync<Permissions.LocationWhenInUse>().ConfigureAwait(false);
+            var status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+            
+
+            if (location == null)
+            {
+
+                    if (status != PermissionStatus.Granted)
+                    {
+                        status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+                    }
+
+                    if (status == PermissionStatus.Granted)
+                    {
+                        var request = new GeolocationRequest(GeolocationAccuracy.High);
+                        location = await Geolocation.GetLocationAsync(request);
+                    }
+
+                
+            }
+        }
+
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        return location;
+    }
+}

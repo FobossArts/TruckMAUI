@@ -1,0 +1,1909 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_screen {
+    /* 1. Main screen */
+
+    position: relative;
+    width: 390px;
+    height: 844px;
+    background: #553FA5;
+}
+
+.phone_header {
+    position: absolute;
+    width: 376px;
+    height: 89px;
+    left: -1px;
+    top: 0px;
+}
+
+.phone_status {
+    position: absolute;
+    left: 0.27%;
+    right: 0%;
+    top: 0%;
+    bottom: 50.56%;
+}
+
+.phone_status_bar {
+    position: absolute;
+    left: 0.27%;
+    right: 0%;
+    top: 0%;
+    bottom: 50.56%;
+}
+
+.time_style {
+    /* Time Style */
+
+    position: absolute;
+    width: 54px;
+    height: 17px;
+    left: 21px;
+    top: 15px;
+}
+
+.time_view {
+    /* ↳ Time */
+
+    position: absolute;
+    width: 54px;
+    height: 17px;
+    left: 0px;
+    top: calc(50% - 17px/2 + 0.5px);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: #FFFFFF;
+}
+
+.phone_connection {
+    /* Cellular Connection */
+
+    position: absolute;
+    width: 17px;
+    height: 10.67px;
+    right: 64.33px;
+    top: 17.67px;
+    background: #FFFFFF;
+}
+
+.phone_connection_1 {
+    /* Cellular_Connection-path */
+
+    position: absolute;
+    left: 82.04%;
+    right: 17.16%;
+    top: 40.15%;
+    bottom: 35.61%;
+    background: #FFFFFF;
+}
+
+.phone_connection_2 {
+    /* Cellular_Connection-path */
+
+    position: absolute;
+    left: 80.8%;
+    right: 18.4%;
+    top: 45.45%;
+    bottom: 35.61%;
+    background: #FFFFFF;
+}
+
+.phone_connection_3 {
+    /* Cellular_Connection-path */
+
+    position: absolute;
+    left: 79.56%;
+    right: 19.64%;
+    top: 50.76%;
+    bottom: 35.61%;
+    background: #FFFFFF;
+}
+
+.phone_connection_4 {
+    /* Cellular_Connection-path */
+
+    position: absolute;
+    left: 78.31%;
+    right: 20.89%;
+    top: 55.3%;
+    bottom: 35.61%;
+    background: #FFFFFF;
+}
+
+.wifi_connection {
+    /* Wifi */
+
+    position: absolute;
+    width: 15.27px;
+    height: 10.97px;
+    right: 44.03px;
+    top: 17.33px;
+    background: #FFFFFF;
+}
+
+.wifi_path_1 {
+    /* Wifi-path */
+
+    position: absolute;
+    left: 85.6%;
+    right: 13.16%;
+    top: 56.64%;
+    bottom: 35.69%;
+    background: #FFFFFF;
+}
+
+.wifi_path_2 {
+    /* Wifi-path */
+
+    position: absolute;
+    left: 84.9%;
+    right: 12.45%;
+    top: 48.01%;
+    bottom: 43.73%;
+    background: #FFFFFF;
+}
+
+.wifi_path_3 {
+    /* Wifi-path */
+
+    position: absolute;
+    left: 84.19%;
+    right: 11.74%;
+    top: 39.39%;
+    bottom: 49.83%;
+    background: #FFFFFF;
+}
+
+.battery_view {
+    /* Battery */
+
+    position: absolute;
+    width: 24.33px;
+    height: 11.33px;
+    left: 336px;
+    top: 17.33px;
+}
+
+.battery_capacity {
+    /* Capacity */
+
+    position: absolute;
+    width: 18px;
+    height: 7.33px;
+    right: 19px;
+    top: 19.33px;
+    background: #FFFFFF;
+    border-radius: 1.33333px;
+}
+
+.battery_cap {
+    /* Cap */
+
+    position: absolute;
+    width: 1.33px;
+    height: 4px;
+    right: 14.67px;
+    top: 21px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.battery_border {
+    /* Border */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 22px;
+    height: 11.33px;
+    right: 17px;
+    top: 17.33px;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+    border: 1px solid #FFFFFF;
+    border-radius: 2.66667px;
+}
+
+.main_center_text {
+    /* Text */
+
+    position: absolute;
+    width: 331px;
+    height: 72px;
+    left: 45px;
+    top: 319px;
+}
+
+.welcome_center_text {
+    /* Welcome To 3Business */
+
+    position: absolute;
+    height: 32px;
+    left: 3.9%;
+    right: 6.04%;
+    top: calc(50% - 32px/2 - 20px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.go_center_text {
+    /* Let’s Go */
+
+    position: absolute;
+    height: 32px;
+    left: 34.6%;
+    right: 35.5%;
+    top: calc(50% - 32px/2 + 20px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_buttons {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin_button_path {
+    /* Button */
+
+    position: absolute;
+    width: 164px;
+    height: 50px;
+    left: 23px;
+    top: 452px;
+}
+
+.signin_button {
+    /* Button */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #CBF556;
+    border-radius: 25px;
+}
+
+.signin_button_text {
+    /* Place order */
+
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: calc(50% - 69px/2);
+    top: calc(50% - 25px/2 + 0.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.257143px;
+    color: #000000;
+}
+
+.button_graph_group {
+    /* Group 3 */
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 11px;
+    top: 11px;
+}
+
+.button_half_round_black {
+    /* Vector 135 */
+
+    width: 13px;
+    height: 12.57px;
+    border-top-left-radius: 110px;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.button_half_round_white {
+    /* Vector 135 */
+
+    width: 13px;
+    height: 12.57px;
+    border-top-left-radius: 110px;
+    border: 2px solid #FFFFFF;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.signup_button_path {
+    /* Button */
+
+    position: absolute;
+    width: 164px;
+    height: 50px;
+    left: 202px;
+    top: 452px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.signup_button_location {
+    /* Button */
+
+    position: absolute;
+    width: 164px;
+    height: 50px;
+    left: 202px;
+    top: 452px;
+}
+
+.signup_button {
+    /* Button */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #383838;
+    border-radius: 25px;
+}
+
+.signup_fill {
+    /* Fill 1 */
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 11px;
+    top: calc(50% - 15px/2 - 6.5px);
+    background: #FFFFFF;
+}
+
+.signup_clip {
+    /* Clip 2 */
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 11px;
+    top: calc(50% - 15px/2 - 6.5px);
+    background: #000000;
+}
+
+.signup_button_text {
+    /* Place order */
+
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: calc(50% - 76px/2);
+    top: calc(50% - 25px/2 + 0.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.257143px;
+    color: #FFFFFF;
+}
+
+.background_image {
+    /* tamas-tuzes-katai-rEn-AdBr3Ig-unsplash 1 */
+
+    position: absolute;
+    width: 428px;
+    height: 844px;
+    left: -1px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/main-truck428.jpg);
+}
+
+.phone_screen {
+    position: relative;
+    width: 428px;
+    height: 844px;
+    background: #2C2C2C;
+}
+
+.create_acc_text {
+    /* Text */
+
+    position: absolute;
+    width: 327.21px;
+    height: 16px;
+    left: 16px;
+    top: 95px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* or 123% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.create_acc_form {
+    /* Form */
+
+    position: absolute;
+    width: 343px;
+    height: 314px;
+    left: 16px;
+    top: 184px;
+}
+
+.name_text_field {
+    /* Text Field */
+
+    position: absolute;
+    left: 0%;
+    right: 52.48%;
+    top: 0%;
+    bottom: 85.35%;
+}
+
+.name_text_bg {
+    /* bg */
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+.name_text_bg_rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C6C2C2;
+    border-radius: 5px;
+}
+
+.create_name_text {
+    /* ↳ Text */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.email_text_field {
+    /* Text Field */
+
+    position: absolute;
+    left: 52.48%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.35%;
+}
+
+.email_text_bg_rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #565656;
+    border-radius: 5px;
+}
+
+.create_email_text {
+    /* ↳ Text */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 10px;
+}
+
+.password_text_field {
+    /* Text Field */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20.06%;
+    bottom: 65.29%;
+}
+
+.password_text_bg_rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #2C2C2C;
+    border-radius: 5px;
+}
+
+.create_password_text {
+    /* ↳ Text */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 10px;
+}
+
+.select_category_field {
+    /* Text Field */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 40.13%;
+    bottom: 45.22%;
+}
+
+.select_category_bg_rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #2C2C2C;
+    border-radius: 5px;
+}
+
+.create_select_category {
+    /* ↳ Text */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 8px;
+}
+
+.select_category_graph_field {
+    /* Glyph */
+
+    position: absolute;
+    width: 7px;
+    height: 12.73px;
+    left: 313px;
+    top: 17px;
+}
+
+.select_category_arrow {
+    /* arrow_right */
+
+    position: absolute;
+    width: 7px;
+    height: 12.73px;
+    right: 23px;
+    top: 17px;
+    background: #B2BEC3;
+}
+
+.create_account_button_field {
+    /* Button */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60.19%;
+    bottom: 23.89%;
+}
+
+.account_button {
+    /* Button */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.create_account_signup_text {
+    /* Place order */
+
+    position: absolute;
+    width: 85px;
+    height: 25px;
+    left: calc(50% - 81px/2);
+    top: calc(50% - 25px/2 + 0.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.257143px;
+    color: #2C2C2C;
+}
+
+.account_button_graph_group {
+    /* Group 3 */
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 11px;
+    top: 11px;
+}
+
+.terms_conditions_bg {
+    /* terms and conditions */
+
+    position: absolute;
+    width: 324px;
+    height: 18px;
+    left: calc(50% - 420px/2);
+    top: 257px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.terms_conditions_field {
+    /* Terms n conditions text */
+
+    position: absolute;
+    left: 2.92%;
+    right: 2.62%;
+    top: 81.85%;
+    bottom: 12.42%;
+}
+
+.terms_conditions_text {
+    /* Text */
+
+    position: absolute;
+    width: 331px;
+    height: 18px;
+    left: calc(50% - 250px/2);
+    top: calc(50% - 18px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    text-align: center;
+    letter-spacing: -0.08px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.already_signup_bg {
+    /* Sign Up */
+
+    position: absolute;
+    width: 207px;
+    height: 22px;
+    left: calc(50% - 207px/2);
+    top: calc(50% - 22px/2 + 146px);
+}
+
+.already_signup_muted_field {
+    /* Muted */
+
+    position: absolute;
+    left: -5%;
+    right: 28.5%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.already_signup_muted_text {
+    /* Label */
+
+    position: absolute;
+    width: 152px;
+    height: 22px;
+    left: calc(50% - 149px/2 + 0.5px);
+    top: calc(50% - 22px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+}
+
+.already_signup_signin_text {
+    /* Sign In */
+
+    position: absolute;
+    height: 22px;
+    left: 73.43%;
+    right: 0%;
+    top: calc(50% - 22px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.phone_header_text_field {
+    /* Top Center */
+
+    position: absolute;
+    margin: auto;
+    height: 22px;
+    left: 120px;
+    right: 118px;
+    top: 55px;
+}
+
+.phone_header_text {
+    /* ↳ Title */
+
+    position: absolute;
+    height: 22px;
+    left: -0.36%;
+    right: 0.36%;
+    top: calc(50% - 22px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+}
+
+.sms_text_field {
+    /* Text */
+
+    position: absolute;
+    width: 328px;
+    height: 88px;
+    top: 149px;
+}
+
+.sms_text_send {
+    /* Text */
+
+    position: absolute;
+    height: 40px;
+    left: 0%;
+    right: 0.24%;
+    top: calc(50% - 40px/2 - 24px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+
+.sms_text_number {
+    /* Text */
+
+    position: absolute;
+    height: 32px;
+    left: 0%;
+    right: 0.24%;
+    top: calc(50% - 32px/2 + 28px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.verification_number_field {
+    /* Verification Number */
+
+    position: absolute;
+    width: 259px;
+    height: 52px;
+    left: calc(50% - 271px/2 + 0.5px);
+    top: 283px;
+}
+
+.verification_black_oval_1 {
+    /* Oval */
+
+    position: absolute;
+    left: 0%;
+    right: 79.92%;
+    top: 0%;
+    bottom: 0%;
+    background: #636363;
+    border-radius: 100%;
+}
+
+.verification_black_oval_2 {
+    /* Oval */
+
+    position: absolute;
+    left: 26.64%;
+    right: 53.28%;
+    top: 0%;
+    bottom: 0%;
+    background: #636363;
+    border-radius: 100%;
+}
+
+.verification_black_oval_3 {
+    /* Oval */
+
+    position: absolute;
+    left: 53.28%;
+    right: 26.64%;
+    top: 0%;
+    bottom: 0%;
+    background: #636363;
+    border-radius: 100%;
+}
+
+.verification_black_oval_4 {
+    /* Oval */
+
+    position: absolute;
+    left: 79.92%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #636363;
+    border-radius: 100%;
+}
+
+.verification_white_oval_1 {
+    /* Oval */
+
+    position: absolute;
+    left: 0%;
+    right: 79.92%;
+    top: 0%;
+    bottom: 0%;
+    background: #EDECF2;
+    border-radius: 100%;
+}
+
+.verification_white_oval_2 {
+    /* Oval */
+
+    position: absolute;
+    left: 26.64%;
+    right: 53.28%;
+    top: 0%;
+    bottom: 0%;
+    background: #EDECF2;
+    border-radius: 100%;
+}
+
+.verification_white_oval_3 {
+    /* Oval */
+
+    position: absolute;
+    left: 53.28%;
+    right: 26.64%;
+    top: 0%;
+    bottom: 0%;
+    background: #EDECF2;
+    border-radius: 100%;
+}
+
+.verification_white_oval_4 {
+    /* Oval */
+
+    position: absolute;
+    left: 79.92%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #EDECF2;
+    border-radius: 100%;
+}
+
+.verification_text {
+    /* 3 */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.verify_button_field {
+    /* Button */
+
+    position: absolute;
+    width: 343px;
+    height: 50px;
+    left: 16px;
+    top: 398px;
+}
+
+.verify_button_text {
+    /* Place order */
+
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    left: calc(50% - 75px/2);
+    top: calc(50% - 25px/2 + 0.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.257143px;
+    color: #2C2C2C;
+}
+
+.resent_code_text_field {
+    /* Text */
+
+    position: absolute;
+    width: 328px;
+    height: 43px;
+    left: calc(50% - 347px/2);
+    top: 461px;
+}
+
+.available_text_field {
+    /* Text 2 */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 53.49%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.resent_code_text {
+    /* Resend Code */
+
+    position: absolute;
+    height: 22px;
+    left: 0%;
+    right: 0.24%;
+    top: calc(50% - 22px/2 - 10.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+}
+
+.available_text {
+    /* Text */
+
+    position: absolute;
+    height: 20px;
+    left: 0%;
+    right: 0.24%;
+    top: calc(50% - 20px/2);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+
+.login_text {
+    /* Text */
+
+    position: absolute;
+    text-align: center;
+    width: 265px;
+    height: 64px;
+    top: 135px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* or 123% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login_form_bg {
+    /* Form */
+
+    position: absolute;
+    width: 343px;
+    height: 205px;
+    left: 16px;
+    top: 246px;
+}
+
+.mobile_number_field {
+    /* Text Field */
+
+    position: absolute;
+    width: 343px;
+    height: 46px;
+    left: 16px;
+    top: 246px;
+}
+
+.login_field_rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #393939;
+    border-radius: 5px;
+}
+
+.mobile_number_text {
+    /* ↳ Text */
+
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 10px;
+}
+
+.password_field {
+    /* Text Field */
+
+    position: absolute;
+    width: 343px;
+    height: 46px;
+    left: 16px;
+    top: 308px;
+}
+
+.login_password_text {
+    /* ↳ Text */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 10px;
+}
+
+.forgot_password_field {
+    /* Forgot password */
+
+    position: relative;
+    text-align: end;
+    width: 107px;
+    height: 18px;
+    top: 367px;
+    margin-left: auto;
+    margin-right: 0;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.forgot_password_text {
+    /* Forgot password */
+
+    position: absolute;
+    text-align: end;
+    height: 18px;
+    left: 0%;
+    right: -0.96%;
+    top: calc(50% - 18px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: -0.08px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.login_button_field {
+    /* Button */
+
+    position: absolute;
+    width: 343px;
+    height: 50px;
+    left: 16px;
+    top: 401px;
+}
+
+.login_button_text {
+    /* Place order */
+
+    position: absolute;
+    width: 85px;
+    height: 25px;
+    left: calc(50% - 81px/2);
+    top: calc(50% - 25px/2 + 0.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.257143px;
+    color: #2C2C2C;
+}
+
+.not_member_bg {
+    /* Sign Up */
+
+    position: absolute;
+    width: 207px;
+    height: 22px;
+    left: calc(50% - 207px/2);
+    top: 476px;
+}
+
+.not_member_muted_field {
+    /* Muted */
+
+    position: absolute;
+    left: 0%;
+    right: 31.46%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.not_member_muted_text {
+    /* Label */
+
+    position: absolute;
+    width: 148px;
+    height: 22px;
+    left: calc(50% - 146px/2);
+    top: calc(50% - 22px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+}
+
+.not_member_signup_text {
+    /* Sign Up */
+
+    position: absolute;
+    height: 22px;
+    left: 70.42%;
+    right: 0%;
+    top: calc(50% - 22px/2);
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.registered_number_text_field {
+    /* Text */
+
+    position: absolute;
+    width: 294px;
+    height: 40px;
+    top: 181px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.registered_number_text {
+    /* Enter your registere */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+
+.forgot_password_form_field {
+    /* Form */
+
+
+    position: absolute;
+    width: 343px;
+    height: 112px;
+    left: 16px;
+    top: 252px;
+}
+
+.forgot_password_number_field {
+    /* Text Field */
+
+    position: absolute;
+    width: 343px;
+    height: 46px;
+    left: 16px;
+    top: 252px;
+}
+
+.password_recovery_button_field {
+    /* Button */
+
+    position: absolute;
+    width: 343px;
+    height: 50px;
+    left: 16px;
+    top: 314px;
+}
+
+.password_recovery_button_text {
+    /* Place order */
+
+    position: absolute;
+    width: 198px;
+    height: 25px;
+    left: calc(50% - 192px/2);
+    top: calc(50% - 25px/2 + 0.5px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.257143px;
+    color: #2C2C2C;
+}
+
+.navbar_header_bg {
+    /* navbar */
+
+    width: 390px;
+    height: 189px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar_rectangle {
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 390px;
+    height: 189px;
+    left: 0px;
+    top: 0px;
+    background: #2F2F2F;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navbar_hello_text {
+    /* Hello, Maxat */
+
+    position: absolute;
+    width: 97px;
+    height: 21px;
+    left: 16px;
+    top: 24px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #AFAFAF;
+}
+
+.navbar_choose_trip_text {
+    /* Choose your Trip */
+
+    position: absolute;
+    width: 181px;
+    height: 29px;
+    left: 16px;
+    top: 53px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.navbar_search_bg {
+    /* Group 23 */
+
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    left: 8%;
+    top: 129px;
+}
+
+.navbar_search_field {
+    /* Rectangle 2 */
+
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    background: #4E4E4E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.navbar_search_text {
+    /* Search */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #8A8A8A;
+    padding-left: 35px;
+}
+
+.navbar_search_mic_bg {
+    /* Search */
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 83%;
+    top: 23%;
+    color: #8A8A8A;
+}
+
+.navbar_search_logo_vector {
+    /* Vector 109 */
+
+    position: absolute;
+    left: 70.83%;
+    right: 16.67%;
+    top: 70.83%;
+    bottom: 16.67%;
+    border: 2px solid #FFFFFF;
+}
+
+.navbar_search_logo_ellipse {
+    /* Ellipse 65 */
+
+    position: absolute;
+    left: 16.67%;
+    right: 25%;
+    top: 16.67%;
+    bottom: 25%;
+    border: 2px solid #FFFFFF;
+}
+
+.navbar_search_logo_bg {
+    /* Mic */
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 23%;
+    color: #FFFFFF;
+}
+
+.navbar_search_mic_vector {
+    /* Vector 77 */
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 79.17%;
+    bottom: 12.5%;
+    border: 2px solid #5E6474;
+}
+
+.navbar_search_mic_ellipse {
+    /* Ellipse 56 */
+
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 20.83%;
+    bottom: 29.17%;
+    border: 2px solid #5E6474;
+}
+
+.navbar_search_mic_rect {
+    /* Rectangle 47 */
+
+    position: absolute;
+    left: 37.5%;
+    right: 37.5%;
+    top: 12.5%;
+    bottom: 41.67%;
+    border: 2px solid #5E6474;
+    border-radius: 3px;
+}
+
+.navbar_avatar_bg {
+    top:-20px;
+    position: absolute;
+    left: 85%;
+}
+
+.navbar_avatar_status {
+    /* Ellipse 2 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 51px;
+    left: 35px;
+    background: #CBF556;
+    border: 0.5px solid #000000;
+    border-radius: 100%;
+}
+
+.navbar_avatar {
+    /* Ellipse 1 */
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 50px;
+    background: url(../images/defaultavatar.jpg);
+    border-radius: 100%;
+}
+
+.mainpage_buttons_area {
+    /* Group 136 */
+
+    position: absolute;
+    width: 393px;
+    height: 38px;
+    left: 26px;
+    top: 203px;
+}
+
+.truckstop_button_field {
+    /* Group 2 */
+
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    left: 26px;
+    flex: 0 0 auto;
+}
+
+.mainpage_area_button {
+    /* Rectangle 53 */
+
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    background: #2F2F2F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+}
+
+.mainpage_area_button_text {
+    /* Truck Stops */
+
+    position: absolute;
+    width: 85px;
+    height: 14px;
+    left: 32px;
+    top: 13px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E0E0E0;
+}
+
+.parking_area_button_field {
+    /* Group 56 */
+
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    left: 161px;
+    flex: 0 0 auto;
+}
+
+.repair_shop_button_field {
+    /* Group 2 */
+
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    left: 296px;
+    flex: 0 0 auto;
+}
+
+.scrolling-wrapper {
+    position: absolute;
+    width: 390px;
+    height: 60px;
+    top: 203px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+div::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.left_icons_area {
+    /* Frame 21 */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 41px;
+    height: 253px;
+    left: 23px;
+    top: 419px;
+}
+
+.left_icons_bg {
+    /* Group 139 */
+
+    width: 41px;
+    height: 41px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.find_way_icon_field {
+    /* Pin */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.find_way_icon_subtract {
+    /* Subtract */
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 11px;
+    top: 12px;
+    color: #EEEEEE;
+}
+
+.latest_place_icon_field {
+    /* Rectangle 56 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 0px;
+    top: 53px;
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.latest_place_icon {
+    /* feed_icon */
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 14px;
+    top: 10px;
+    background-image: url(../images/feed_icon.svg);
+}
+
+.saved_place_icon_field {
+    /* Rectangle 57 */
+
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 0px;
+    top: 106px;
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.saved_place_icon {
+    /* saved-svgrepo-com 1 */
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 8px;
+    top: 7px;
+    background-image: url(../images/saved-place.svg);
+}
+
+.add_place_icon_field {
+    /* Rectangle 58 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 0px;
+    top: 159px;
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.add_place_icon {
+    /* add-svgrepo-com 1 */
+
+    position: absolute;
+    left: 29.27%;
+    right: 29.27%;
+    top: 27.59%;
+    bottom: 25.69%;
+    background-image: url(../images/add-place.svg);
+}
+
+.truck_icon_field {
+    /* Rectangle 59 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 0px;
+    top: 212px;
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.truck_icon {
+    /* Group 15 */
+
+    position: absolute;
+    width: 23px;
+    height: 16.83px;
+    left: 9px;
+    top: 12px;
+    background-image: url(../images/truck-icon.svg);
+}
+
+.location_icon_field {
+    /* Rectangle 60 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 85%;
+    top: 567px;
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 21.5px;
+}
+
+.location_icon {
+    /* location-svgrepo-com 1 */
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 8px;
+    top: 8px;
+    background-image: url(../images/location-icon.svg);
+}
+
+.map_icon_field {
+    /* Rectangle 59 */
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 85%;
+    top: 628px;
+    background: #CBF556;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.map_icon {
+    /* map-svgrepo-com 1 */
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 12px;
+    background-image: url(../images/map-icon.svg);
+}
+
+.map_sf_bg {
+    /* map */
+
+    position: absolute;
+    width: 96%;
+    height: 788px;
+    top: 156px;
+    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/map.png);*/
+}
+
+.scroll_icon_position {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -22px;
+    top: -1px;
+}
+
+.stops_icon {
+    /* stops-svgrepo-com (1) 1 */
+
+    background-image: url(../images/stops-icon.svg);
+}
+
+.parking_icon {
+    /* parking-svgrepo-com 1 */
+
+    background-image: url(../images/parking-icon.svg);
+}
+
+.repair_icon {
+    /* repair-svgrepo-com 1 */
+
+    background-image: url(../images/repair-icon.svg);
+}
