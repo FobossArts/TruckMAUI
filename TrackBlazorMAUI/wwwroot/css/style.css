@@ -1,18 +1,14 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-.main_screen {
+.main_screen{
     /* 1. Main screen */
 
     position: relative;
     width: 390px;
-    height: 844px;
+
+
     background: #553FA5;
 }
 
-.phone_header {
+.phone_header{
     position: absolute;
     width: 376px;
     height: 89px;
@@ -20,7 +16,7 @@
     top: 0px;
 }
 
-.phone_status {
+.phone_status{
     position: absolute;
     left: 0.27%;
     right: 0%;
@@ -28,7 +24,7 @@
     bottom: 50.56%;
 }
 
-.phone_status_bar {
+.phone_status_bar{
     position: absolute;
     left: 0.27%;
     right: 0%;
@@ -36,7 +32,7 @@
     bottom: 50.56%;
 }
 
-.time_style {
+.time_style{
     /* Time Style */
 
     position: absolute;
@@ -46,7 +42,7 @@
     top: 15px;
 }
 
-.time_view {
+.time_view{
     /* ↳ Time */
 
     position: absolute;
@@ -54,6 +50,7 @@
     height: 17px;
     left: 0px;
     top: calc(50% - 17px/2 + 0.5px);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 600;
@@ -63,10 +60,11 @@
 
     text-align: center;
     letter-spacing: -0.28px;
+
     color: #FFFFFF;
 }
 
-.phone_connection {
+.phone_connection{
     /* Cellular Connection */
 
     position: absolute;
@@ -74,10 +72,11 @@
     height: 10.67px;
     right: 64.33px;
     top: 17.67px;
+
     background: #FFFFFF;
 }
 
-.phone_connection_1 {
+.phone_connection_1{
     /* Cellular_Connection-path */
 
     position: absolute;
@@ -85,10 +84,11 @@
     right: 17.16%;
     top: 40.15%;
     bottom: 35.61%;
+
     background: #FFFFFF;
 }
 
-.phone_connection_2 {
+.phone_connection_2{
     /* Cellular_Connection-path */
 
     position: absolute;
@@ -96,10 +96,11 @@
     right: 18.4%;
     top: 45.45%;
     bottom: 35.61%;
+
     background: #FFFFFF;
 }
 
-.phone_connection_3 {
+.phone_connection_3{
     /* Cellular_Connection-path */
 
     position: absolute;
@@ -107,10 +108,11 @@
     right: 19.64%;
     top: 50.76%;
     bottom: 35.61%;
+
     background: #FFFFFF;
 }
 
-.phone_connection_4 {
+.phone_connection_4{
     /* Cellular_Connection-path */
 
     position: absolute;
@@ -118,10 +120,11 @@
     right: 20.89%;
     top: 55.3%;
     bottom: 35.61%;
+
     background: #FFFFFF;
 }
 
-.wifi_connection {
+.wifi_connection{
     /* Wifi */
 
     position: absolute;
@@ -129,10 +132,11 @@
     height: 10.97px;
     right: 44.03px;
     top: 17.33px;
+
     background: #FFFFFF;
 }
 
-.wifi_path_1 {
+.wifi_path_1{
     /* Wifi-path */
 
     position: absolute;
@@ -140,10 +144,11 @@
     right: 13.16%;
     top: 56.64%;
     bottom: 35.69%;
+
     background: #FFFFFF;
 }
 
-.wifi_path_2 {
+.wifi_path_2{
     /* Wifi-path */
 
     position: absolute;
@@ -151,10 +156,11 @@
     right: 12.45%;
     top: 48.01%;
     bottom: 43.73%;
+
     background: #FFFFFF;
 }
 
-.wifi_path_3 {
+.wifi_path_3{
     /* Wifi-path */
 
     position: absolute;
@@ -162,10 +168,11 @@
     right: 11.74%;
     top: 39.39%;
     bottom: 49.83%;
+
     background: #FFFFFF;
 }
 
-.battery_view {
+.battery_view{
     /* Battery */
 
     position: absolute;
@@ -175,7 +182,7 @@
     top: 17.33px;
 }
 
-.battery_capacity {
+.battery_capacity{
     /* Capacity */
 
     position: absolute;
@@ -183,11 +190,12 @@
     height: 7.33px;
     right: 19px;
     top: 19.33px;
+
     background: #FFFFFF;
     border-radius: 1.33333px;
 }
 
-.battery_cap {
+.battery_cap{
     /* Cap */
 
     position: absolute;
@@ -195,37 +203,40 @@
     height: 4px;
     right: 14.67px;
     top: 21px;
+
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.4;
 }
 
-.battery_border {
+.battery_border{
     /* Border */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 22px;
     height: 11.33px;
     right: 17px;
     top: 17.33px;
+
     mix-blend-mode: normal;
     opacity: 0.35;
     border: 1px solid #FFFFFF;
     border-radius: 2.66667px;
 }
 
-.main_center_text {
+.main_center_text{
     /* Text */
 
     position: absolute;
     width: 331px;
     height: 72px;
-    left: 45px;
+    left: 9%;
     top: 319px;
 }
 
-.welcome_center_text {
+.welcome_center_text{
     /* Welcome To 3Business */
 
     position: absolute;
@@ -233,6 +244,7 @@
     left: 3.9%;
     right: 6.04%;
     top: calc(50% - 32px/2 - 20px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -241,10 +253,11 @@
     /* identical to box height, or 123% */
 
     text-align: center;
+
     color: #FFFFFF;
 }
 
-.go_center_text {
+.go_center_text{
     /* Let’s Go */
 
     position: absolute;
@@ -252,6 +265,7 @@
     left: 34.6%;
     right: 35.5%;
     top: calc(50% - 32px/2 + 20px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -260,16 +274,18 @@
     /* identical to box height, or 123% */
 
     text-align: center;
+
     color: #FFFFFF;
 }
 
-.main_buttons {
+.main_buttons{
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
 
-.signin_button_path {
+.signin_button_path{
     /* Button */
 
     position: absolute;
@@ -279,7 +295,7 @@
     top: 452px;
 }
 
-.signin_button {
+.signin_button{
     /* Button */
 
     position: absolute;
@@ -287,11 +303,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #CBF556;
     border-radius: 25px;
 }
 
-.signin_button_text {
+.signin_button_text{
     /* Place order */
 
     position: absolute;
@@ -299,6 +316,7 @@
     height: 25px;
     left: calc(50% - 69px/2);
     top: calc(50% - 25px/2 + 0.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -308,10 +326,11 @@
 
     text-align: center;
     letter-spacing: 0.257143px;
+
     color: #000000;
 }
 
-.button_graph_group {
+.button_graph_group{
     /* Group 3 */
 
     position: absolute;
@@ -321,29 +340,29 @@
     top: 11px;
 }
 
-.button_half_round_black {
+.button_half_round_black{
     /* Vector 135 */
 
     width: 13px;
-    height: 12.57px;
+    height: 12.57px;    
     border-top-left-radius: 110px;
     border: 2px solid black;
     border-bottom: 0;
     border-right: 0;
 }
 
-.button_half_round_white {
+.button_half_round_white{
     /* Vector 135 */
 
     width: 13px;
-    height: 12.57px;
+    height: 12.57px;    
     border-top-left-radius: 110px;
     border: 2px solid #FFFFFF;
     border-bottom: 0;
     border-right: 0;
 }
 
-.signup_button_path {
+.signup_button_path{
     /* Button */
 
     position: absolute;
@@ -351,10 +370,11 @@
     height: 50px;
     left: 202px;
     top: 452px;
+
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.signup_button_location {
+.signup_button_location{
     /* Button */
 
     position: absolute;
@@ -364,7 +384,7 @@
     top: 452px;
 }
 
-.signup_button {
+.signup_button{
     /* Button */
 
     position: absolute;
@@ -372,11 +392,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #383838;
     border-radius: 25px;
 }
 
-.signup_fill {
+.signup_fill{
     /* Fill 1 */
 
     position: absolute;
@@ -384,10 +405,11 @@
     height: 15px;
     left: 11px;
     top: calc(50% - 15px/2 - 6.5px);
+
     background: #FFFFFF;
 }
 
-.signup_clip {
+.signup_clip{
     /* Clip 2 */
 
     position: absolute;
@@ -395,10 +417,11 @@
     height: 15px;
     left: 11px;
     top: calc(50% - 15px/2 - 6.5px);
+
     background: #000000;
 }
 
-.signup_button_text {
+.signup_button_text{
     /* Place order */
 
     position: absolute;
@@ -406,6 +429,7 @@
     height: 25px;
     left: calc(50% - 76px/2);
     top: calc(50% - 25px/2 + 0.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -415,10 +439,11 @@
 
     text-align: center;
     letter-spacing: 0.257143px;
+
     color: #FFFFFF;
 }
 
-.background_image {
+.background_image{
     /* tamas-tuzes-katai-rEn-AdBr3Ig-unsplash 1 */
 
     position: absolute;
@@ -426,17 +451,35 @@
     height: 844px;
     left: -1px;
     top: 0px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/main-truck428.jpg);
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(main-truck428.jpg);
 }
 
-.phone_screen {
+.phone_screen{
     position: relative;
-    width: 428px;
+    width: 100%;
     height: 844px;
+
     background: #2C2C2C;
 }
 
-.create_acc_text {
+.phone_screen_scaled{
+    position: relative;
+    width: 428px;
+    height: 844px;
+
+    background: #2F2F2F;
+}
+
+.phone_screen_medium{
+    position: relative;
+    width: 100%;
+    height: 1030px;
+
+    background: #2C2C2C;
+}
+
+.create_acc_text{
     /* Text */
 
     position: absolute;
@@ -444,6 +487,7 @@
     height: 16px;
     left: 16px;
     top: 95px;
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -452,10 +496,11 @@
     /* or 123% */
 
     text-align: center;
+
     color: #FFFFFF;
 }
 
-.create_acc_form {
+.create_acc_form{
     /* Form */
 
     position: absolute;
@@ -465,7 +510,7 @@
     top: 184px;
 }
 
-.name_text_field {
+.name_text_field{
     /* Text Field */
 
     position: absolute;
@@ -475,17 +520,18 @@
     bottom: 85.35%;
 }
 
-.name_text_bg {
+.name_text_bg{
     /* bg */
 
     position: absolute;
     left: 0px;
     top: 0px;
+
     mix-blend-mode: normal;
     opacity: 0.3;
 }
 
-.name_text_bg_rectangle {
+.name_text_bg_rectangle{
     /* Rectangle */
 
     position: absolute;
@@ -493,11 +539,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #C6C2C2;
     border-radius: 5px;
 }
 
-.create_name_text {
+.create_name_text{
     /* ↳ Text */
 
     font-family: 'SF Pro Display';
@@ -508,11 +555,13 @@
     /* identical to box height, or 133% */
 
     letter-spacing: -0.24px;
+
     color: #FFFFFF;
+
     padding-left: 10px;
 }
 
-.email_text_field {
+.email_text_field{
     /* Text Field */
 
     position: absolute;
@@ -522,7 +571,7 @@
     bottom: 85.35%;
 }
 
-.email_text_bg_rectangle {
+.email_text_bg_rectangle{
     /* Rectangle */
 
     position: absolute;
@@ -530,11 +579,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #565656;
     border-radius: 5px;
 }
 
-.create_email_text {
+.create_email_text{
     /* ↳ Text */
 
     font-family: 'SF Pro Display';
@@ -545,11 +595,13 @@
     /* identical to box height, or 133% */
 
     letter-spacing: -0.24px;
+
     color: rgba(255, 255, 255, 0.4);
+
     padding-left: 10px;
 }
 
-.password_text_field {
+.password_text_field{
     /* Text Field */
 
     position: absolute;
@@ -559,7 +611,7 @@
     bottom: 65.29%;
 }
 
-.password_text_bg_rectangle {
+.password_text_bg_rectangle{
     /* Rectangle */
 
     position: absolute;
@@ -567,11 +619,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #2C2C2C;
     border-radius: 5px;
 }
 
-.create_password_text {
+.create_password_text{
     /* ↳ Text */
 
     font-family: 'SF Pro Display';
@@ -582,11 +635,13 @@
     /* identical to box height, or 133% */
 
     letter-spacing: -0.24px;
+
     color: rgba(255, 255, 255, 0.4);
+
     padding-left: 10px;
 }
 
-.select_category_field {
+.select_category_field{
     /* Text Field */
 
     position: absolute;
@@ -596,7 +651,7 @@
     bottom: 45.22%;
 }
 
-.select_category_bg_rectangle {
+.select_category_bg_rectangle{
     /* Rectangle */
 
     position: absolute;
@@ -604,11 +659,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #2C2C2C;
     border-radius: 5px;
 }
 
-.create_select_category {
+.create_select_category{
     /* ↳ Text */
 
     font-family: 'SF Pro Display';
@@ -619,11 +675,13 @@
     /* identical to box height, or 133% */
 
     letter-spacing: -0.24px;
+
     color: rgba(255, 255, 255, 0.4);
+    
     padding-left: 8px;
 }
 
-.select_category_graph_field {
+.select_category_graph_field{
     /* Glyph */
 
     position: absolute;
@@ -633,7 +691,7 @@
     top: 17px;
 }
 
-.select_category_arrow {
+.select_category_arrow{
     /* arrow_right */
 
     position: absolute;
@@ -641,10 +699,11 @@
     height: 12.73px;
     right: 23px;
     top: 17px;
+
     background: #B2BEC3;
 }
 
-.create_account_button_field {
+.create_account_button_field{
     /* Button */
 
     position: absolute;
@@ -654,7 +713,7 @@
     bottom: 23.89%;
 }
 
-.account_button {
+.account_button{
     /* Button */
 
     position: absolute;
@@ -662,11 +721,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #FFFFFF;
     border-radius: 25px;
 }
 
-.create_account_signup_text {
+.create_account_signup_text{
     /* Place order */
 
     position: absolute;
@@ -674,6 +734,7 @@
     height: 25px;
     left: calc(50% - 81px/2);
     top: calc(50% - 25px/2 + 0.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -683,10 +744,11 @@
 
     text-align: center;
     letter-spacing: 0.257143px;
+
     color: #2C2C2C;
 }
 
-.account_button_graph_group {
+.account_button_graph_group{
     /* Group 3 */
 
     position: absolute;
@@ -696,7 +758,7 @@
     top: 11px;
 }
 
-.terms_conditions_bg {
+.terms_conditions_bg{
     /* terms and conditions */
 
     position: absolute;
@@ -704,11 +766,12 @@
     height: 18px;
     left: calc(50% - 420px/2);
     top: 257px;
+
     mix-blend-mode: normal;
     opacity: 0.8;
 }
 
-.terms_conditions_field {
+.terms_conditions_field{
     /* Terms n conditions text */
 
     position: absolute;
@@ -718,7 +781,7 @@
     bottom: 12.42%;
 }
 
-.terms_conditions_text {
+.terms_conditions_text{
     /* Text */
 
     position: absolute;
@@ -726,6 +789,7 @@
     height: 18px;
     left: calc(50% - 250px/2);
     top: calc(50% - 18px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 500;
@@ -735,11 +799,13 @@
 
     text-align: center;
     letter-spacing: -0.08px;
+
     color: #FFFFFF;
+
     text-decoration: none;
 }
 
-.already_signup_bg {
+.already_signup_bg{
     /* Sign Up */
 
     position: absolute;
@@ -749,7 +815,7 @@
     top: calc(50% - 22px/2 + 146px);
 }
 
-.already_signup_muted_field {
+.already_signup_muted_field{
     /* Muted */
 
     position: absolute;
@@ -757,11 +823,12 @@
     right: 28.5%;
     top: 0%;
     bottom: 0%;
+
     mix-blend-mode: normal;
     opacity: 0.4;
 }
 
-.already_signup_muted_text {
+.already_signup_muted_text{
     /* Label */
 
     position: absolute;
@@ -769,6 +836,7 @@
     height: 22px;
     left: calc(50% - 149px/2 + 0.5px);
     top: calc(50% - 22px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 400;
@@ -777,10 +845,11 @@
     /* identical to box height, or 129% */
 
     letter-spacing: -0.41px;
+
     color: #FFFFFF;
 }
 
-.already_signup_signin_text {
+.already_signup_signin_text{
     /* Sign In */
 
     position: absolute;
@@ -788,6 +857,7 @@
     left: 73.43%;
     right: 0%;
     top: calc(50% - 22px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 600;
@@ -796,11 +866,13 @@
     /* identical to box height, or 129% */
 
     letter-spacing: -0.41px;
+
     color: #FFFFFF;
+
     text-decoration: none;
 }
 
-.phone_header_text_field {
+.phone_header_text_field{
     /* Top Center */
 
     position: absolute;
@@ -811,7 +883,7 @@
     top: 55px;
 }
 
-.phone_header_text {
+.phone_header_text{
     /* ↳ Title */
 
     position: absolute;
@@ -819,6 +891,7 @@
     left: -0.36%;
     right: 0.36%;
     top: calc(50% - 22px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 600;
@@ -828,10 +901,11 @@
 
     text-align: center;
     letter-spacing: -0.41px;
+
     color: #FFFFFF;
 }
 
-.sms_text_field {
+.sms_text_field{
     /* Text */
 
     position: absolute;
@@ -840,7 +914,7 @@
     top: 149px;
 }
 
-.sms_text_send {
+.sms_text_send{
     /* Text */
 
     position: absolute;
@@ -848,6 +922,7 @@
     left: 0%;
     right: 0.24%;
     top: calc(50% - 40px/2 - 24px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -857,10 +932,11 @@
 
     text-align: center;
     letter-spacing: -0.24px;
+
     color: #FFFFFF;
 }
 
-.sms_text_number {
+.sms_text_number{
     /* Text */
 
     position: absolute;
@@ -868,6 +944,7 @@
     left: 0%;
     right: 0.24%;
     top: calc(50% - 32px/2 + 28px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -876,10 +953,11 @@
     /* identical to box height, or 123% */
 
     text-align: center;
+
     color: #FFFFFF;
 }
 
-.verification_number_field {
+.verification_number_field{
     /* Verification Number */
 
     position: absolute;
@@ -889,7 +967,7 @@
     top: 283px;
 }
 
-.verification_black_oval_1 {
+.verification_black_oval_1{
     /* Oval */
 
     position: absolute;
@@ -897,11 +975,12 @@
     right: 79.92%;
     top: 0%;
     bottom: 0%;
+
     background: #636363;
     border-radius: 100%;
 }
 
-.verification_black_oval_2 {
+.verification_black_oval_2{
     /* Oval */
 
     position: absolute;
@@ -909,11 +988,12 @@
     right: 53.28%;
     top: 0%;
     bottom: 0%;
+
     background: #636363;
     border-radius: 100%;
 }
 
-.verification_black_oval_3 {
+.verification_black_oval_3{
     /* Oval */
 
     position: absolute;
@@ -921,11 +1001,12 @@
     right: 26.64%;
     top: 0%;
     bottom: 0%;
+
     background: #636363;
     border-radius: 100%;
 }
 
-.verification_black_oval_4 {
+.verification_black_oval_4{
     /* Oval */
 
     position: absolute;
@@ -933,11 +1014,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #636363;
     border-radius: 100%;
 }
 
-.verification_white_oval_1 {
+.verification_white_oval_1{
     /* Oval */
 
     position: absolute;
@@ -945,11 +1027,12 @@
     right: 79.92%;
     top: 0%;
     bottom: 0%;
+
     background: #EDECF2;
     border-radius: 100%;
 }
 
-.verification_white_oval_2 {
+.verification_white_oval_2{
     /* Oval */
 
     position: absolute;
@@ -957,11 +1040,12 @@
     right: 53.28%;
     top: 0%;
     bottom: 0%;
+
     background: #EDECF2;
     border-radius: 100%;
 }
 
-.verification_white_oval_3 {
+.verification_white_oval_3{
     /* Oval */
 
     position: absolute;
@@ -969,11 +1053,12 @@
     right: 26.64%;
     top: 0%;
     bottom: 0%;
+
     background: #EDECF2;
     border-radius: 100%;
 }
 
-.verification_white_oval_4 {
+.verification_white_oval_4{
     /* Oval */
 
     position: absolute;
@@ -981,11 +1066,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #EDECF2;
     border-radius: 100%;
 }
 
-.verification_text {
+.verification_text{
     /* 3 */
 
     font-family: 'SF Pro Display';
@@ -996,10 +1082,11 @@
     /* identical to box height, or 123% */
 
     text-align: center;
+
     color: #2C2C2C;
 }
 
-.verify_button_field {
+.verify_button_field{
     /* Button */
 
     position: absolute;
@@ -1009,7 +1096,7 @@
     top: 398px;
 }
 
-.verify_button_text {
+.verify_button_text{
     /* Place order */
 
     position: absolute;
@@ -1017,6 +1104,7 @@
     height: 25px;
     left: calc(50% - 75px/2);
     top: calc(50% - 25px/2 + 0.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -1026,10 +1114,11 @@
 
     text-align: center;
     letter-spacing: 0.257143px;
+
     color: #2C2C2C;
 }
 
-.resent_code_text_field {
+.resent_code_text_field{
     /* Text */
 
     position: absolute;
@@ -1039,7 +1128,7 @@
     top: 461px;
 }
 
-.available_text_field {
+.available_text_field{
     /* Text 2 */
 
     position: absolute;
@@ -1047,11 +1136,12 @@
     right: 0%;
     top: 53.49%;
     bottom: 0%;
+
     mix-blend-mode: normal;
     opacity: 0.5;
 }
 
-.resent_code_text {
+.resent_code_text{
     /* Resend Code */
 
     position: absolute;
@@ -1059,6 +1149,7 @@
     left: 0%;
     right: 0.24%;
     top: calc(50% - 22px/2 - 10.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -1068,10 +1159,11 @@
 
     text-align: center;
     letter-spacing: -0.41px;
+
     color: #FFFFFF;
 }
 
-.available_text {
+.available_text{
     /* Text */
 
     position: absolute;
@@ -1079,6 +1171,7 @@
     left: 0%;
     right: 0.24%;
     top: calc(50% - 20px/2);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -1088,10 +1181,11 @@
 
     text-align: center;
     letter-spacing: -0.24px;
+
     color: #FFFFFF;
 }
 
-.login_text {
+.login_text{
     /* Text */
 
     position: absolute;
@@ -1099,6 +1193,7 @@
     width: 265px;
     height: 64px;
     top: 135px;
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -1107,10 +1202,11 @@
     /* or 123% */
 
     text-align: center;
+
     color: #FFFFFF;
 }
 
-.login_form_bg {
+.login_form_bg{
     /* Form */
 
     position: absolute;
@@ -1120,7 +1216,7 @@
     top: 246px;
 }
 
-.mobile_number_field {
+.mobile_number_field{
     /* Text Field */
 
     position: absolute;
@@ -1130,7 +1226,7 @@
     top: 246px;
 }
 
-.login_field_rectangle {
+.login_field_rectangle{
     /* Rectangle */
 
     position: absolute;
@@ -1138,11 +1234,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
+
     background: #393939;
     border-radius: 5px;
 }
 
-.mobile_number_text {
+.mobile_number_text{
     /* ↳ Text */
 
 
@@ -1154,11 +1251,13 @@
     /* identical to box height, or 133% */
 
     letter-spacing: -0.24px;
+
     color: rgba(255, 255, 255, 0.4);
+
     padding-left: 10px;
 }
 
-.password_field {
+.password_field{
     /* Text Field */
 
     position: absolute;
@@ -1168,7 +1267,7 @@
     top: 308px;
 }
 
-.login_password_text {
+.login_password_text{
     /* ↳ Text */
 
     font-family: 'SF Pro Display';
@@ -1179,11 +1278,13 @@
     /* identical to box height, or 133% */
 
     letter-spacing: -0.24px;
+
     color: rgba(255, 255, 255, 0.4);
+
     padding-left: 10px;
 }
 
-.forgot_password_field {
+.forgot_password_field{
     /* Forgot password */
 
     position: relative;
@@ -1191,13 +1292,14 @@
     width: 107px;
     height: 18px;
     top: 367px;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: 0;
+
     mix-blend-mode: normal;
     opacity: 0.4;
 }
 
-.forgot_password_text {
+.forgot_password_text{
     /* Forgot password */
 
     position: absolute;
@@ -1206,6 +1308,7 @@
     left: 0%;
     right: -0.96%;
     top: calc(50% - 18px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 500;
@@ -1214,11 +1317,13 @@
     /* identical to box height, or 138% */
 
     letter-spacing: -0.08px;
+
     color: #FFFFFF;
+
     text-decoration: none;
 }
 
-.login_button_field {
+.login_button_field{
     /* Button */
 
     position: absolute;
@@ -1228,7 +1333,7 @@
     top: 401px;
 }
 
-.login_button_text {
+.login_button_text{
     /* Place order */
 
     position: absolute;
@@ -1236,6 +1341,7 @@
     height: 25px;
     left: calc(50% - 81px/2);
     top: calc(50% - 25px/2 + 0.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -1245,10 +1351,11 @@
 
     text-align: center;
     letter-spacing: 0.257143px;
+
     color: #2C2C2C;
 }
 
-.not_member_bg {
+.not_member_bg{
     /* Sign Up */
 
     position: absolute;
@@ -1258,7 +1365,7 @@
     top: 476px;
 }
 
-.not_member_muted_field {
+.not_member_muted_field{
     /* Muted */
 
     position: absolute;
@@ -1266,11 +1373,12 @@
     right: 31.46%;
     top: 0%;
     bottom: 0%;
+
     mix-blend-mode: normal;
     opacity: 0.4;
 }
 
-.not_member_muted_text {
+.not_member_muted_text{
     /* Label */
 
     position: absolute;
@@ -1278,6 +1386,7 @@
     height: 22px;
     left: calc(50% - 146px/2);
     top: calc(50% - 22px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 400;
@@ -1286,10 +1395,11 @@
     /* identical to box height, or 129% */
 
     letter-spacing: -0.41px;
+
     color: #FFFFFF;
 }
 
-.not_member_signup_text {
+.not_member_signup_text{
     /* Sign Up */
 
     position: absolute;
@@ -1297,6 +1407,7 @@
     left: 70.42%;
     right: 0%;
     top: calc(50% - 22px/2);
+
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 600;
@@ -1305,22 +1416,25 @@
     /* identical to box height, or 129% */
 
     letter-spacing: -0.41px;
+
     color: #FFFFFF;
+
     text-decoration: none;
 }
 
-.registered_number_text_field {
+.registered_number_text_field{
     /* Text */
 
     position: absolute;
     width: 294px;
     height: 40px;
     top: 181px;
+
     mix-blend-mode: normal;
     opacity: 0.5;
 }
 
-.registered_number_text {
+.registered_number_text{
     /* Enter your registere */
 
     font-family: 'SF Pro Display';
@@ -1332,10 +1446,11 @@
 
     text-align: center;
     letter-spacing: -0.24px;
+
     color: #FFFFFF;
 }
 
-.forgot_password_form_field {
+.forgot_password_form_field{
     /* Form */
 
 
@@ -1346,7 +1461,7 @@
     top: 252px;
 }
 
-.forgot_password_number_field {
+.forgot_password_number_field{
     /* Text Field */
 
     position: absolute;
@@ -1356,7 +1471,7 @@
     top: 252px;
 }
 
-.password_recovery_button_field {
+.password_recovery_button_field{
     /* Button */
 
     position: absolute;
@@ -1366,7 +1481,7 @@
     top: 314px;
 }
 
-.password_recovery_button_text {
+.password_recovery_button_text{
     /* Place order */
 
     position: absolute;
@@ -1374,6 +1489,7 @@
     height: 25px;
     left: calc(50% - 192px/2);
     top: calc(50% - 25px/2 + 0.5px);
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -1383,10 +1499,11 @@
 
     text-align: center;
     letter-spacing: 0.257143px;
+
     color: #2C2C2C;
 }
 
-.navbar_header_bg {
+.navbar_header_bg{
     /* navbar */
 
     width: 390px;
@@ -1395,7 +1512,7 @@
     top: 0px;
 }
 
-.navbar_rectangle {
+.navbar_rectangle{
     /* Rectangle 1 */
 
     position: absolute;
@@ -1403,34 +1520,38 @@
     height: 189px;
     left: 0px;
     top: 0px;
+
     background: #2F2F2F;
     border-radius: 0px 0px 20px 20px;
 }
 
-.navbar_hello_text {
+.navbar_hello_text{
     /* Hello, Maxat */
 
     position: absolute;
     width: 97px;
     height: 21px;
     left: 16px;
-    top: 24px;
+    top: 44px;
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+
     color: #AFAFAF;
 }
 
-.navbar_choose_trip_text {
+.navbar_choose_trip_text{
     /* Choose your Trip */
 
     position: absolute;
     width: 181px;
     height: 29px;
     left: 16px;
-    top: 53px;
+    top: 73px;
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
@@ -1442,7 +1563,7 @@
     color: #FFFFFF;
 }
 
-.navbar_search_bg {
+.navbar_search_bg{
     /* Group 23 */
 
     position: absolute;
@@ -1452,18 +1573,19 @@
     top: 129px;
 }
 
-.navbar_search_field {
+.navbar_search_field{
     /* Rectangle 2 */
 
     position: absolute;
     width: 338px;
     height: 41px;
+
     background: #4E4E4E;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-.navbar_search_text {
+.navbar_search_text{
     /* Search */
 
     font-family: 'SF Pro Display';
@@ -1475,21 +1597,21 @@
 
 
     color: #8A8A8A;
+
     padding-left: 35px;
 }
 
-.navbar_search_mic_bg {
+.navbar_search_mic_bg{
     /* Search */
 
     position: absolute;
-    width: 24px;
-    height: 24px;
     left: 83%;
     top: 23%;
+
     color: #8A8A8A;
 }
 
-.navbar_search_logo_vector {
+.navbar_search_logo_vector{
     /* Vector 109 */
 
     position: absolute;
@@ -1497,10 +1619,11 @@
     right: 16.67%;
     top: 70.83%;
     bottom: 16.67%;
+
     border: 2px solid #FFFFFF;
 }
 
-.navbar_search_logo_ellipse {
+.navbar_search_logo_ellipse{
     /* Ellipse 65 */
 
     position: absolute;
@@ -1508,10 +1631,11 @@
     right: 25%;
     top: 16.67%;
     bottom: 25%;
+
     border: 2px solid #FFFFFF;
 }
 
-.navbar_search_logo_bg {
+.navbar_search_logo_bg{
     /* Mic */
 
     position: absolute;
@@ -1519,10 +1643,11 @@
     height: 24px;
     left: 10px;
     top: 23%;
+
     color: #FFFFFF;
 }
 
-.navbar_search_mic_vector {
+.navbar_search_mic_vector{
     /* Vector 77 */
 
     position: absolute;
@@ -1530,10 +1655,11 @@
     right: 50%;
     top: 79.17%;
     bottom: 12.5%;
+
     border: 2px solid #5E6474;
 }
 
-.navbar_search_mic_ellipse {
+.navbar_search_mic_ellipse{
     /* Ellipse 56 */
 
     position: absolute;
@@ -1541,10 +1667,11 @@
     right: 25%;
     top: 20.83%;
     bottom: 29.17%;
+
     border: 2px solid #5E6474;
 }
 
-.navbar_search_mic_rect {
+.navbar_search_mic_rect{
     /* Rectangle 47 */
 
     position: absolute;
@@ -1552,20 +1679,22 @@
     right: 37.5%;
     top: 12.5%;
     bottom: 41.67%;
+
     border: 2px solid #5E6474;
     border-radius: 3px;
 }
 
-.navbar_avatar_bg {
-    top:-20px;
+.navbar_avatar_bg{
+
     position: absolute;
     left: 85%;
 }
 
-.navbar_avatar_status {
+.navbar_avatar_status{
     /* Ellipse 2 */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 8px;
     height: 8px;
@@ -1576,18 +1705,19 @@
     border-radius: 100%;
 }
 
-.navbar_avatar {
+.navbar_avatar{
     /* Ellipse 1 */
 
     position: absolute;
     width: 46px;
     height: 46px;
     top: 50px;
-    background: url(../images/defaultavatar.jpg);
+
+    background: url(defaultavatar.jpg);
     border-radius: 100%;
 }
 
-.mainpage_buttons_area {
+.mainpage_buttons_area{
     /* Group 136 */
 
     position: absolute;
@@ -1597,28 +1727,30 @@
     top: 203px;
 }
 
-.truckstop_button_field {
+.truckstop_button_field{
     /* Group 2 */
 
     position: absolute;
     width: 123px;
     height: 38px;
     left: 26px;
+    
     flex: 0 0 auto;
 }
 
-.mainpage_area_button {
+.mainpage_area_button{
     /* Rectangle 53 */
 
     position: absolute;
     width: 123px;
     height: 38px;
+
     background: #2F2F2F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 19px;
 }
 
-.mainpage_area_button_text {
+.mainpage_area_button_text{
     /* Truck Stops */
 
     position: absolute;
@@ -1626,51 +1758,57 @@
     height: 14px;
     left: 32px;
     top: 13px;
+
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
+
     color: #E0E0E0;
 }
 
-.parking_area_button_field {
+.parking_area_button_field{
     /* Group 56 */
 
     position: absolute;
     width: 123px;
     height: 38px;
     left: 161px;
+
     flex: 0 0 auto;
 }
 
-.repair_shop_button_field {
+.repair_shop_button_field{
     /* Group 2 */
 
     position: absolute;
     width: 123px;
     height: 38px;
     left: 296px;
+
     flex: 0 0 auto;
 }
 
-.scrolling-wrapper {
+.scrolling-wrapper{
     position: absolute;
     width: 390px;
     height: 60px;
     top: 203px;
+
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
 
 div::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+  width: 0px;
+  background: transparent;
 }
 
-.left_icons_area {
+.left_icons_area{
     /* Frame 21 */
+
     /* Auto layout */
 
     display: flex;
@@ -1678,6 +1816,7 @@ div::-webkit-scrollbar {
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
+
     position: absolute;
     width: 41px;
     height: 253px;
@@ -1685,11 +1824,13 @@ div::-webkit-scrollbar {
     top: 419px;
 }
 
-.left_icons_bg {
+.left_icons_bg{
     /* Group 139 */
 
     width: 41px;
     height: 41px;
+
+
     /* Inside auto layout */
 
     flex: none;
@@ -1697,46 +1838,51 @@ div::-webkit-scrollbar {
     flex-grow: 0;
 }
 
-.find_way_icon_field {
+.find_way_icon_field{
     /* Pin */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 41px;
     height: 41px;
     left: 0px;
     top: 0px;
+
     background: #262626;
     border: 1px solid #858585;
     border-radius: 20.5px;
 }
 
-.find_way_icon_subtract {
+.find_way_icon_subtract{
     /* Subtract */
 
     position: absolute;
     width: 25px;
     height: 25px;
     left: 11px;
-    top: 12px;
-    color: #EEEEEE;
+    top: 8px;
+
+    color:  #EEEEEE;
 }
 
-.latest_place_icon_field {
+.latest_place_icon_field{
     /* Rectangle 56 */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 41px;
     height: 41px;
     left: 0px;
     top: 53px;
+
     background: #262626;
     border: 1px solid #858585;
     border-radius: 20.5px;
 }
 
-.latest_place_icon {
+.latest_place_icon{
     /* feed_icon */
 
     position: absolute;
@@ -1744,25 +1890,28 @@ div::-webkit-scrollbar {
     height: 15px;
     left: 14px;
     top: 10px;
-    background-image: url(../images/feed_icon.svg);
+
+    background-image: url(feed_icon.svg);
 }
 
-.saved_place_icon_field {
+.saved_place_icon_field{
     /* Rectangle 57 */
 
 
     box-sizing: border-box;
+
     position: absolute;
     width: 41px;
     height: 41px;
     left: 0px;
     top: 106px;
+
     background: #262626;
     border: 1px solid #858585;
     border-radius: 20.5px;
 }
 
-.saved_place_icon {
+.saved_place_icon{
     /* saved-svgrepo-com 1 */
 
     position: absolute;
@@ -1770,24 +1919,27 @@ div::-webkit-scrollbar {
     height: 24px;
     left: 8px;
     top: 7px;
-    background-image: url(../images/saved-place.svg);
+
+    background-image: url(saved-place.svg);
 }
 
-.add_place_icon_field {
+.add_place_icon_field{
     /* Rectangle 58 */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 41px;
     height: 41px;
     left: 0px;
     top: 159px;
+
     background: #262626;
     border: 1px solid #858585;
     border-radius: 20.5px;
 }
 
-.add_place_icon {
+.add_place_icon{
     /* add-svgrepo-com 1 */
 
     position: absolute;
@@ -1795,24 +1947,27 @@ div::-webkit-scrollbar {
     right: 29.27%;
     top: 27.59%;
     bottom: 25.69%;
-    background-image: url(../images/add-place.svg);
+
+    background-image: url(add-place.svg);
 }
 
-.truck_icon_field {
+.truck_icon_field{
     /* Rectangle 59 */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 41px;
     height: 41px;
     left: 0px;
     top: 212px;
+
     background: #262626;
     border: 1px solid #858585;
     border-radius: 20.5px;
 }
 
-.truck_icon {
+.truck_icon{
     /* Group 15 */
 
     position: absolute;
@@ -1820,24 +1975,27 @@ div::-webkit-scrollbar {
     height: 16.83px;
     left: 9px;
     top: 12px;
-    background-image: url(../images/truck-icon.svg);
+
+    background-image: url(truck-icon.svg);
 }
 
-.location_icon_field {
+.location_icon_field{
     /* Rectangle 60 */
 
     box-sizing: border-box;
+
     position: absolute;
     width: 43px;
     height: 43px;
     left: 85%;
     top: 567px;
+
     background: #262626;
     border: 1px solid #858585;
     border-radius: 21.5px;
 }
 
-.location_icon {
+.location_icon{
     /* location-svgrepo-com 1 */
 
     position: absolute;
@@ -1845,10 +2003,11 @@ div::-webkit-scrollbar {
     height: 25px;
     left: 8px;
     top: 8px;
-    background-image: url(../images/location-icon.svg);
+
+    background-image: url(location-icon.svg);
 }
 
-.map_icon_field {
+.map_icon_field{
     /* Rectangle 59 */
 
     position: absolute;
@@ -1856,12 +2015,13 @@ div::-webkit-scrollbar {
     height: 44px;
     left: 85%;
     top: 628px;
+
     background: #CBF556;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 7px;
 }
 
-.map_icon {
+.map_icon{
     /* map-svgrepo-com 1 */
 
     position: absolute;
@@ -1869,20 +2029,23 @@ div::-webkit-scrollbar {
     height: 20px;
     left: 12px;
     top: 12px;
-    background-image: url(../images/map-icon.svg);
+
+    background-image: url(map-icon.svg);
 }
 
-.map_sf_bg {
+.map_sf_bg{
     /* map */
 
     position: absolute;
-    width: 96%;
+    width: 100%;
     height: 788px;
-    top: 156px;
-    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/map.png);*/
+    top: 56px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(map.png);
 }
 
-.scroll_icon_position {
+.scroll_icon_position{
+
     position: absolute;
     width: 15px;
     height: 15px;
@@ -1890,20 +2053,2185 @@ div::-webkit-scrollbar {
     top: -1px;
 }
 
-.stops_icon {
+.stops_icon{
     /* stops-svgrepo-com (1) 1 */
 
-    background-image: url(../images/stops-icon.svg);
+    background-image: url(stops-icon.svg);
 }
 
-.parking_icon {
+.parking_icon{
     /* parking-svgrepo-com 1 */
 
-    background-image: url(../images/parking-icon.svg);
+    background-image: url(parking-icon.svg);
 }
 
-.repair_icon {
+.repair_icon{
     /* repair-svgrepo-com 1 */
 
-    background-image: url(../images/repair-icon.svg);
+    background-image: url(repair-icon.svg);
+}
+
+.nav_icons_area{
+    /* Frame 21 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 253px;
+    height: 41px;
+    left: 27px;
+    top: 205px;
+}
+
+.latest_place_nav_icon_field{
+    /* Rectangle 56 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 53px;
+    top: 0px;
+
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.saved_place_nav_icon_field{
+    /* Rectangle 57 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 106px;
+    top: 0px;
+
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.add_place_nav_icon_field{
+    /* Rectangle 58 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 159px;
+    top: 0px;
+
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.truck_nav_icon_field{
+    /* Rectangle 59 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 212px;
+    top: 0px;
+
+    background: #262626;
+    border: 1px solid #858585;
+    border-radius: 20.5px;
+}
+
+.latest_in_area_text{
+    /* Latest in the area */
+
+    position: absolute;
+    width: 185px;
+    height: 26px;
+    left: 26px;
+    top: 264px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.popular_cafes_text{
+    /* Popular cafes */
+
+    position: absolute;
+    width: 185px;
+    height: 19px;
+    left: 26px;
+    top: 315px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.see_all_link{
+    /* See all */
+
+    position: absolute;
+    width: 100%;
+    height: 17px;
+    left: 0px;
+    top: 585px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #CBF556;
+
+    text-decoration: none;
+}
+
+.popular_cafes_field_1{
+    /* Group 24 */
+
+    position: absolute;
+    width: 182px;
+    height: 198px;
+    left: 26px;
+    top: 361px;
+}
+
+.popular_cafes_img_1{
+    /* Rectangle 63 */
+
+    position: absolute;
+    width: 182px;
+    height: 197px;
+    left: 26px;
+
+    background: url(BillyBillBobTruck.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.popular_cafes_area_1{
+    /* Rectangle 65 */
+
+    position: absolute;
+    width: 182px;
+    height: 96px;
+    top: 101px;
+
+    background: #494949;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.popular_cafes_1_main_text{
+    /* Billy Bill Bob’s Truck */
+
+    position: absolute;
+    height: 17px;
+    left: 26px;
+    top: 17px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.popular_cafes_1_second_text{
+    /* Iconic Cafe in the center of LA */
+
+    position: absolute;
+    width: 170px;
+    height: 14px;
+    left: 15px;
+    top: 36px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #AEAEAE;
+}
+
+.popular_cafes_1_range{
+    /* 2.1 mi */
+
+    position: absolute;
+    width: 30px;
+    height: 14px;
+    left: 26px;
+    top: 62px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #7C7C7C;
+}
+
+.popular_cafes_img_2{
+    /* Rectangle 64 */
+
+    position: absolute;
+    width: 182px;
+    height: 196px;
+    left: 228px;
+
+    background: url(LANoirCafe.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.popular_cafes_area_2{
+    
+    position: absolute;
+    width: 182px;
+    height: 95px;
+    left: 228px;
+    top: 463px;
+
+    background: #494949;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.scrolling-wrapper-cafes{
+    position: absolute;
+    width: 390px;
+    height: 220px;
+    top: 360px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.popular_motels_text{
+    /* Popular Motels */
+
+    position: absolute;
+    width: 185px;
+    height: 19px;
+    left: 26px;
+    top: 618px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.scrolling-wrapper-motels{
+
+    position: absolute;
+    width: 390px;
+    height: 220px;
+    top: 638px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.popular_motels_img_1{
+    /* Rectangle 63 */
+
+    position: absolute;
+    width: 182px;
+    height: 180px;
+    left: 26px;
+    top: 24px;
+
+    background: url(WhitneyMotel.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.popular_motels_img_2{
+    /* Rectangle 64 */
+
+    position: absolute;
+    width: 182px;
+    height: 180px;
+    left: 228px;
+    top: 24px;
+
+    background: url(ScottyMotel.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.location_search_navbar{
+    /* Navbar */
+
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+.location_search_bg{
+    /* Search bg */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 76%;
+    height: 80px;
+    left: 11%;
+    top: 115px;
+
+    background: #262626;
+    mix-blend-mode: normal;
+    border: 1px solid #7C7C7C;
+    border-radius: 8px;
+}
+
+.location_back_icon_position{
+    /* Back Icon */
+
+    position: absolute;
+    width: 11px;
+    height: 15px;
+    left: 5%;
+    top: 20%;
+
+
+    background-image: url(BackIcon.svg);
+}
+
+.location_travel_icon_position{
+    /* Travel Icon */
+
+    position: absolute;
+    width: 10px;
+    height: 43.45px;
+    left: 15%;
+    top: 25%;
+
+    background-image: url(TravelIcon.svg);
+}
+
+.location_first_place_position{
+    /* Your location */
+
+    position: absolute;
+    width: 108px;
+    height: 18px;
+    left: 25%;
+    top: 19%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.location_three_dots_position{
+    /* Ellipses */
+
+    position: absolute;
+    width: 3px;
+    height: 13.5px;
+    left: 90%;
+    top: 23%;
+
+    background-image: url(Ellipses.svg);
+}
+
+.location_line_one{
+    /* Line */
+
+    position: absolute;
+    width: 58%;
+    height: 0px;
+    left: 25%;
+    top: 49%;
+
+    border: 1px solid #FFFFFF;
+}
+
+.location_line_two{
+    /* Line */
+
+    position: absolute;
+    width: 58%;
+    height: 0px;
+    left: 25%;
+    top: 79%;
+
+    border: 1px solid #FFFFFF;
+}
+
+.location_swap_icon_position{
+    /* Swap Icon */
+
+    position: absolute;
+    width: 15px;
+    height: 18px;
+    left: 88%;
+    top: 59%;
+
+    background-image: url(SwapIcon.svg);
+}
+
+.location_icon_position{
+    /* Location Icon */
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 78px;
+    top: 454px;
+
+    background-image: url(LocationIcon-green.svg);
+}
+
+.location_gps_button_position{
+    /* GPS Button */
+
+    position: absolute;
+    width: 70px;
+    height: 62px;
+    left: 78%;
+    top: 50%;
+
+    background-image: url(GPSButton.svg);
+}
+
+.container_custom{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.map_sf_location_bg{
+    /* map */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(map.png);
+}
+
+.location_second_place_position{
+    /* Brew Mix Coffee Shop, Mur... */
+
+    position: absolute;
+    width: 58%;
+    height: 20px;
+    left: 25%;
+    top: 59%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.location_path_vector{
+    /* Vector */
+
+    position: absolute;
+    width: 126.5px;
+    height: 146px;
+    left: 93.5px;
+    top: 321px;
+
+    background-image: url(Vector.svg);
+}
+
+.location_path_marker{
+    /* Marker */
+
+    position: absolute;
+    width: 29px;
+    height: 39px;
+    left: 199px;
+    top: 290px;
+
+    background-image: url(Marker.svg);
+}
+
+.location_card_field{
+    /* Card */
+
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.location_card_bg{
+    /* bg */
+
+    position: absolute;
+    width: 76%;
+    height: 96px;
+    left: 11%;
+    top: 582px;
+
+    background: #CBF556;
+    border-radius: 5px;
+}
+
+.location_card_path_distance{
+    /* 42 min (8.1km) */
+
+    position: absolute;
+    width: 147px;
+    height: 27px;
+    left: 5%;
+    top: 10%;
+
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.location_card_path_info{
+    /* Fastest route, despite the usual traffic */
+
+    position: absolute;
+    width: 219px;
+    height: 14px;
+    left: 5%;
+    top: 37%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.location_card_start_button{
+    /* Rectangle */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 131px;
+    height: 38px;
+    left: 25%;
+    top: 79%;
+
+    background: linear-gradient(0deg, #CBF556, #CBF556), #C4C4C4;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.location_card_start_button_text{
+    /* Start */
+
+    position: absolute;
+    width: 39px;
+    height: 22px;
+    left: 45%;
+    top: 21%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.location_card_start_button_icon{
+    /* Arrow Icon */
+
+    position: absolute;
+    width: 17px;
+    height: 21px;
+    left: 28%;
+    top: 21%;
+
+    background-image: url(ArrowIcon.svg);
+}
+
+.container_custom{
+    width: 100%;
+    /* padding-right: var(--bs-gutter-x,.75rem); */
+    /* padding-left: var(--bs-gutter-x,.75rem); */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.personal_page_header{
+    /* Vector 125 */
+
+    position: absolute;
+    width: 100%;
+    height: 31.7%;
+    left: 0px;
+    top: 0px;
+
+    background-image: url(PersonalPageHeader.svg);
+}
+
+.personal_page_avatar{
+    /* Ellipse 3 */
+
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    left: 26.7%;
+    top: 9.6%;
+
+    border-radius: 100%;
+    background-image: url(defaultavatar-large.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.personal_page_name{
+
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    top: 32.7%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.personal_page_status{
+    /* Professional */
+
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 305px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #383838;
+}
+
+.personal_page_covered_field{
+    /* Group 115 */
+
+    position: absolute;
+    width: 114px;
+    height: 87px;
+    left: 2%;
+    top: 42.3%;
+}
+
+.personal_page_area_bg{
+    /* Rectangle 107 */
+
+    position: absolute;
+    width: 114px;
+    height: 87px;
+
+    background: #1E1E1E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+
+.personal_page_distance{
+    /* 1282 km */
+
+    position: absolute;
+    width: 97px;
+    height: 29px;
+    left: 7.5%;
+    top: 24%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.personal_page_title{
+    /* Covered */
+
+    position: absolute;
+    width: 43px;
+    height: 14px;
+    left: 7.5%;
+    top: 60%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.personal_page_drived_field{
+    /* Group 113 */
+
+    position: absolute;
+    width: 114px;
+    height: 87px;
+    left: 34.9%;
+    top: 42.3%;
+}
+
+.personal_page_given_field{
+    /* Group 114 */
+
+    position: absolute;
+    width: 114px;
+    height: 87px;
+    left: 67.7%;
+    top: 42.3%;
+}
+
+.personal_page_friends_title{
+    /* Friends */
+
+    position: absolute;
+    width: 44px;
+    height: 17px;
+    left: 6.7%;
+    top: 56.9%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.personal_page_friends_one{
+    /* Group 108 */
+
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 23px;
+    top: 511px;
+}
+
+.personal_page_friends_two{
+    /* Group 109 */
+
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 109px;
+    top: 511px;
+}
+
+.personal_page_friends_three{
+    /* Group 110 */
+
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 199px;
+    top: 511px;
+}
+
+.personal_page_friends_four{
+    /* Group 111 */
+
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 285px;
+    top: 511px;
+}
+
+.personal_page_friends_ellipse{
+    /* Ellipse 95 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 71px;
+    height: 71px;
+
+    border: 1px solid #CBF556;
+    border-radius: 100%;
+}
+
+.personal_page_friends_photo{
+    /* Ellipse 94 */
+
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 5%;
+    top: 5%;
+
+    border-radius: 100%;
+    background: url(defaultavatar-middle.png);
+}
+
+.personal_page_friends_photo_add{
+    
+    position: absolute;
+    left: 28.9%;
+    top: 18%;
+    font-size: 30px;
+
+    color: #FFFFFF;
+}
+
+.personal_page_favorites_field{
+    /* Rectangle 111 */
+
+    position: absolute;
+    width: 341px;
+    height: 67px;
+    left: 3%;
+    top: 626px;
+
+    background: #1E1E1E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33.5px;
+}
+
+.personal_page_reviews_field{
+    /* Rectangle 110 */
+
+    position: absolute;
+    width: 341px;
+    height: 67px;
+    left: 3%;
+    top: 697px;
+
+    background: #1E1E1E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33.5px;
+}
+
+.personal_page_buttons_title{
+    /* Favorites */
+
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 6.7%;
+    top: 32.8%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.personal_page_right_arrow{
+    /* Vector 128 */
+
+    position: absolute;
+    width: 13.5px;
+    height: 22px;
+    left: 90.5%;
+    top: 32.8%;
+
+    background-image: url(RightArrow.svg);
+}
+
+.personal_page_nav_icons_area{
+    /* Frame 21 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 253px;
+    height: 41px;
+    left: 17.4%;
+    top: 94.3%;
+}
+
+.garage_header_field{
+    /* Group 141 */
+
+    position: absolute;
+    width: 390px;
+    height: 131px;
+    left: 0px;
+    top: 0px;
+}
+
+.garage_header_bg{
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 390px;
+    height: 131px;
+    left: 0px;
+    top: 0px;
+
+    background: #3D3C3C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.garage_header_text_field{
+    /* Group 64 */
+
+    position: absolute;
+    width: 348px;
+    height: 52.64px;
+    left: 16px;
+    top: 47.1px;
+}
+
+.garage_header_name{
+    /* Hello, Maxat */
+
+    position: absolute;
+    height: 20.1px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #AFAFAF;
+}
+
+.garage_header_info{
+    /* Set your home address */
+
+    position: absolute;
+    height: 24.89px;
+    top: 57.2%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.garage_group_field{
+    /* Group 174 */
+
+    position: absolute;
+    width: 88.2%;
+    height: 772px;
+    left: 6.7%;
+    top: 147px;
+}
+
+.garage_text_title{
+    /* Your current Truck is */
+
+    position: absolute;
+    width: 100%;
+    height: 33px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.garage_truck_field{
+    /* Group 125 */
+
+    position: absolute;
+    width: 196px;
+    height: 392px;
+    left: 23%;
+    top: 7.4%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.garage_truck_bg{
+    /* Rectangle 113 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 192px;
+    height: 392px;
+
+    background: #D9D9D9;
+    border: 3px solid #CBF556;
+    border-radius: 96px;
+}
+
+.garage_big_truck_img{
+    /* image 18 */
+
+    position: absolute;
+    width: 165px;
+    height: 356px;
+    left: -5%;
+    top: 5%;
+
+    background: url(BigTruck-img.svg);
+}
+
+.garage_medium_truck_img{
+    /* image 18 */
+
+    position: absolute;
+    width: 169px;
+    height: 356px;
+    top: 5%;
+
+    background: url(MediumTruck-img.svg);
+}
+
+.garage_small_truck_img{
+    /* image 18 */
+
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    left: 10%;
+    top: 10%;
+
+    background: url(SmallTruck.svg);
+}
+
+.garage_create_truck_img{
+    /* image 18 */
+
+    position: absolute;
+    width: 169px;
+    height: 295px;
+    left: 6.25%;
+    top: 10%;
+
+    background: url(CreateTruckImg.svg);
+}
+
+.garage_create_truck_question_logo{
+    /* ? */
+
+    position: absolute;
+    width: 50px;
+    height: 110px;
+    left: 33.7%;
+    top: 39%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 110px;
+    /* identical to box height */
+
+
+    color: #CBF556;
+}
+
+.garage_truck_title{
+    /* 1995 Dodge Ram Van 2500 */
+
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    top: 62.6%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #EFEFEF;
+}
+
+.garage_truck_info_field{
+    /* Group 150 */
+
+    position: absolute;
+    width: 255px;
+    height: 224px;
+    left: 12.1%;
+    top: 71%;
+}
+
+.garage_truck_length_field{
+    /* Group 123 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+}
+
+.garage_truck_info_bg{
+    /* Rectangle 114 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+
+    background: #373737;
+    border-radius: 22px;
+}
+
+.garage_truck_length_title{
+    /* Length */
+
+    position: absolute;
+    width: 42px;
+    height: 16px;
+    left: 65%;
+    top: 30%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.garage_truck_parameters_info{
+    /* 205.2 " */
+
+    position: absolute;
+    height: 26px;
+    left: 9.7%;
+    top: 17%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #EFEFEF;
+}
+
+.garage_truck_height_field{
+    /* Group 122 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+    top: 26.8%;
+}
+
+.garage_truck_weight_field{
+    /* Group 121 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+    top: 53.6%;
+}
+
+.garage_truck_name_title{
+    /* Group 124 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+    top: 80.3%;
+}
+
+.garage_truck_title_info{
+    /* 1995 Dodge Ram Van 2500 */
+
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    left: 13.2%;
+    top: 14.7%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #EFEFEF;
+}
+
+.garage_truck_button_length_field{
+    /* Group 117 */
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 82.7%;
+}
+
+.garage_truck_button_bg{
+    /* Ellipse 96 */
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+
+    border-radius: 100%;
+    background: #434343;
+}
+
+.garage_truck_shuffle_logo{
+    /* shuffle-change-svgrepo-com 1 */
+
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 25%;
+    top: 22.7%;
+
+    background-image: url(shuffle-change.svg);
+}
+
+.garage_truck_button_height_field{
+    /* Group 118 */
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 82.7%;
+    top: 26.8%;
+}
+
+.garage_truck_button_weight_field{
+    /* Group 119 */
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 82.7%;
+    top: 53.6%;
+}
+
+.garage_truck_button_name_title_field{
+    /* Group 120 */
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 82.7%;
+    top: 80.3%;
+}
+
+.garage_right_arrow_bg{
+    /* Ellipse 100 */
+
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 89.3%;
+    top: 29%;
+
+    border-radius: 100%;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.garage_left_arrow_bg{
+    /* Ellipse 101 */
+
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 4.1%;
+    top: 29%;
+
+    border-radius: 100%;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.garage_right_arrow_logo{
+    /* Vector 130 */
+
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 42%;
+    top: 29%;
+
+    background-image: url(garage-right-arrow.svg);
+}
+
+.garage_left_arrow_logo{
+    /* Vector 130 */
+
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 32%;
+    top: 29%;
+
+    background-image: url(garage-left-arrow.svg);
+}
+
+.garage_active_button_field{
+    /* Group 126 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+    left: 17.6%;
+    top: 110%;
+}
+
+.garage_active_button_bg{
+    /* Rectangle 117 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+
+    background: #CBF556;
+    border: 1px solid #000000;
+    border-radius: 22px;
+}
+
+.garage_active_button_text{
+    /* Use it! */
+
+    position: absolute;
+    width: 165px;
+    height: 21px;
+    top: 25%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.garage_create_truck_question_icon{
+    /* ? */
+
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    top: 62.6%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #CBF556;
+}
+
+.garage_create_truck_info{
+    /* 205.2 " */
+
+    position: absolute;
+    height: 26px;
+    left: 9.7%;
+    top: 17%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #EFEFEF;
+}
+
+.garage_create_truck_line{
+    /* Line 21 */
+
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 11.2%;
+
+    border: 1px solid #969696;
+}
+
+.garage_create_header_bg{
+    /* Rectangle 63 */
+
+    position: absolute;
+    width: 100%;
+    height: 11.2%;
+    left: 0px;
+    top: 0px;
+
+    background: #2F2F2F;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.garage_create_header_text{
+    /* Settings of a car */
+
+    position: absolute;
+    height: 19px;
+    left: 33.8%;
+    top: 44%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.garage_create_header_arrow{
+    /* Vector 9 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    left: 4.1%;
+    top: 47%;
+
+    background-image: url(GarageCreateArrow.svg);
+}
+
+.garage_create_length_field{
+    /* Rectangle 88 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 91.8%;
+    height: 54px;
+    left: 3.8%;
+    top: 14%;
+
+    border: 1.5px solid #C9C9C9;
+    border-radius: 5px;
+}
+
+.garage_create_settings_text{
+    /* Length */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 4.7%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #DDDDDD;
+    background-color: #2F2F2F;
+}
+
+.garage_create_height_field{
+    /* Rectangle 89 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 91.8%;
+    height: 54px;
+    left: 3.8%;
+    top: 22.8%;
+
+    border: 1.5px solid #C9C9C9;
+    border-radius: 5px;
+}
+
+.garage_create_width_field{
+    /* Rectangle 90 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 91.8%;
+    height: 54px;
+    left: 3.8%;
+    top: 31.6%;
+
+    border: 1.5px solid #C9C9C9;
+    border-radius: 5px;
+}
+
+.garage_create_model_select{
+    /* Rectangle 91 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 91.8%;
+    height: 54px;
+    left: 3.8%;
+    top: 40.4%;
+
+    border: 1.5px solid #C9C9C9;
+    border-radius: 5px;
+    background-color: #2F2F2F;
+}
+
+.garage_create_model_select_text{
+    /* Length */
+
+    padding-left: 3.8%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #DDDDDD;
+}
+
+.garage_create_details_field{
+    /* Group 105 */
+
+    position: absolute;
+    width: 91.8%;
+    height: 99px;
+    left: 3.8%;
+    top: 49.2%;
+}
+
+.garage_create_details_bg{
+    /* Rectangle 106 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100%;
+    height: 99px;
+
+    border: 2px solid #CBF556;
+    border-radius: 5px;
+}
+
+.garage_create_details_text{
+    /* Share details of your own experience at this place */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 3.8%;
+    padding-top: 3%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #A0A0A0;
+    background-color: #2F2F2F;
+}
+
+.garage_create_active_button_field{
+    /* Group 126 */
+
+    position: absolute;
+    width: 165px;
+    height: 44px;
+    left: 28.7%;
+    top: 76.8%;
+}
+
+.garage_success_modal_field{
+    /* Group 164 */
+
+    position: absolute;
+    width: 248px;
+    height: 148px;
+    left: 18.2%;
+    top: 28.8%;
+}
+
+.garage_success_modal_bg{
+    /* Rectangle 119 */
+
+    position: absolute;
+    width: 248px;
+    height: 148px;
+
+    background: #CBF556;
+    border-radius: 21px;
+}
+
+.garage_success_modal_text{
+    /* Successfully added to your list */
+
+    position: absolute;
+    width: 185px;
+    height: 52px;
+    left: 13%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.modal_header_custom{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem 1rem;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.mic_modal_bg{
+    /* Rectangle 77 */
+
+    position: absolute;
+    width: 296px;
+    height: 301px;
+    left: 11.8%;
+    top: 269px;
+
+    background: #1E1E1E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.mic_modal_title{
+    /* Tracker map */
+
+    position: absolute;
+    height: 29px;
+    left: 28.4%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.mic_modal_button{
+    /* Ellipse 74 */
+
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    left: 34.8%;
+    top: 32.2%;
+
+    background: #AFD24C;
+    border-radius: 100%;
+}
+
+.mic_modal_button_ellipse{
+    /* Ellipse 75 */
+
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 12.1%;
+    top: 11%;
+
+    background: #CBF556;
+    border-radius: 100%;
+}
+
+.mic_modal_button_logo{
+    /* Mic */
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 20%;
+    top: 22%;
+
+    background-image: url(../images/Mic.svg);
+}
+
+.mic_modal_dots_group{
+    /* Group 63 */
+
+    position: absolute;
+    width: 55px;
+    height: 9px;
+    left: 42.3%;
+    top: 67.8%;
+}
+
+.mic_modal_dot_left{
+    /* Ellipse 76 */
+
+    position: absolute;
+    width: 9px;
+    height: 9px;
+
+    background: #FFFFFF;
+    border-radius: 100%;
+}
+
+.mic_modal_dot_center{
+    /* Ellipse 77 */
+
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 20px;
+
+    background: #FFFFFF;
+    border-radius: 100%;
+}
+
+.mic_modal_dot_right{
+    /* Ellipse 78 */
+
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 40px;
+
+    background: #FFFFFF;
+    border-radius: 100%;
+}
+
+.mic_modal_language{
+    /* English(United States) */
+
+    position: absolute;
+    width: 296px;
+    height: 19px;
+    top: 81.3%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.search_path_search_field{
+    /* Group 138 */
+
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    left: 6.4%;
+    top: 6.5%;
+}
+
+.search_path_home_field{
+    /* Group 35 */
+
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    left: 6.4%;
+    top: 14%;
+}
+
+.search_path_ellipse_bg{
+    /* Group 31 */
+
+    position: absolute;
+    width: 31px;
+    height: 31px;
+}
+
+.search_path_ellipse{
+    /* Ellipse 66 */
+
+    position: absolute;
+    width: 31px;
+    height: 31px;
+
+    border-radius: 100%;
+    background: #4E4E4E;
+}
+
+.search_path_home_icon{
+    /* home-svgrepo-com 1 */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 21.1%;
+    top: 15%;
+
+    background-image: url(../images/home-svgrepo.svg);
+}
+
+.search_path_text{
+    /* Group 29 */
+
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    left: 37%;
+}
+
+.search_path_text_title{
+    /* Home */
+
+    position: absolute;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #9A9A9A;
+}
+
+.search_path_text_info{
+    /* Set location */
+
+    position: absolute;
+    top: 57%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #9A9A9A;
+}
+
+.search_path_header_line{
+    /* Line 1 */
+
+    position: absolute;
+    width: 41px;
+    height: 0px;
+    left: 100%;
+    top: 40%;
+
+    border: 2px solid #4E4E4E;
+    transform: rotate(90deg);
+}
+
+.search_path_work_field{
+    /* Group 36 */
+
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    left: 41%;
+    top: 14%;
+}
+
+.search_path_work_icon{
+    /* work-svgrepo-com 1 */
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 17%;
+    top: 14%;
+
+    background-image: url(../images/work-svgrepo.svg);
+}
+
+.search_path_more_field{
+    /* Group 36 */
+
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 76%;
+    top: 14%;
+}
+
+.search_path_more_title{
+    /* more */
+
+    position: absolute;
+    width: 35px;
+    height: 19px;
+    left: 80%;
+    top: 11%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #9C9C9C;
+}
+
+.search_path_dots_icon{
+    /* work-svgrepo-com 1 */
+
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    left: 18%;
+    top: 40%;
+
+    background-image: url(../images/dots-svg.svg);
+}
+
+.search_path_title{
+    /* Recent */
+
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 6.4%;
+    top: 22.7%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #9A9A9A;
+}
+
+.search_path_places_field{
+    /* Group 52 */
+
+    position: absolute;
+    width: 290px;
+    height: 275px;
+    left: 26px;
+    top: 233px;
+}
+
+.search_path_place_one_area{
+    /* Group 51 */
+
+    position: absolute;
+    width: 290px;
+    height: 35px;
+}
+
+.search_path_clock_field{
+    /* Group 42 */
+
+    position: absolute;
+    width: 31px;
+    height: 31px;
+}
+
+.search_path_clock_ellipse{
+    /* Ellipse 67 */
+
+    position: absolute;
+    width: 31px;
+    height: 31px;
+
+    border-radius: 100%;
+    background: #CBF556;
+}
+
+.search_path_clock_icon{
+    /* Group */
+
+    position: absolute;
+    left: 22%;
+    top: 22%;
+    width: 17px;
+    height: 17px;
+
+    background-image: url(../images/clock-svg.svg);
+}
+
+.search_path_places_text{
+    /* Group 40 */
+
+    position: absolute;
+    width: 220px;
+    height: 35px;
+    left: 21.5%;
+}
+
+.search_path_places_title{
+    /* International Las Vegas Airport */
+
+    position: absolute;
+    height: 19px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #EFEFEF;
+}
+
+.search_path_places_info{
+    /* 24 Silkway road , Las Vegas */
+
+    position: absolute;
+    height: 14px;
+    top: 60%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #838383;
+}
+
+.search_path_place_two_area{
+    /* Group 50 */
+
+    position: absolute;
+    width: 290px;
+    height: 35px;
+    top: 60px;
+}
+
+.search_path_place_three_area{
+    /* Group 50 */
+
+    position: absolute;
+    width: 290px;
+    height: 35px;
+    top: 120px;
+}
+
+.search_path_place_four_area{
+    /* Group 50 */
+
+    position: absolute;
+    width: 290px;
+    height: 35px;
+    top: 180px;
+}
+
+.search_path_place_five_area{
+    /* Group 50 */
+
+    position: absolute;
+    width: 290px;
+    height: 35px;
+    top: 240px;
 }

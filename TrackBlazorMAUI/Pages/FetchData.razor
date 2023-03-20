@@ -1,46 +1,60 @@
-﻿@page "/fetchdata"
+﻿@page "/login.html"
 
-@using TrackBlazorMAUI.Data
-@inject WeatherForecastService ForecastService
-
-<h1>Weather forecast</h1>
-
-<p>This component demonstrates fetching data from a service.</p>
-
-@if (forecasts == null)
-{
-	<p><em>Loading...</em></p>
-}
-else
-{
-	<table class="table">
-		<thead>
-			<tr>
-				<th>Date</th>
-				<th>Temp. (C)</th>
-				<th>Temp. (F)</th>
-				<th>Summary</th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach (var forecast in forecasts)
-			{
-				<tr>
-					<td>@forecast.Date.ToShortDateString()</td>
-					<td>@forecast.TemperatureC</td>
-					<td>@forecast.TemperatureF</td>
-					<td>@forecast.Summary</td>
-				</tr>
-			}
-		</tbody>
-	</table>
-}
-
-@code {
-	private WeatherForecast[] forecasts;
-
-	protected override async Task OnInitializedAsync()
-	{
-		forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
-	}
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="phone_screen col-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="phone_header col-11 col-sm-11 col-md-11 col-lg-11">
+                    <div class="phone_status">
+                        <div class="phone_status_bar"></div>
+                    </div>
+                </div>
+                <div class="login_text col-11 col-sm-11 col-md-11 col-lg-11">
+                    <p>Login to Your Account</p>
+                </div>
+                <div class="mobile_number_field col-11 col-sm-11 col-md-11 col-lg-11">
+                    <input type="text" class="login_field_rectangle mobile_number_text" placeholder="Mobile Number">
+                </div>
+                <div class="password_field col-11 col-sm-11 col-md-11 col-lg-11">
+                    <input type="text" class="login_field_rectangle login_password_text" placeholder="Password">
+                </div>
+                <div class="forgot_password_field">
+                    <a href="ForgotPassword.html" class="forgot_password_text">
+                        Forgot password
+                    </a>
+                </div>
+                <div class="login_button_field col-11 col-sm-11 col-md-11 col-lg-11">
+                    <a href="MainPage.html" class="account_button">
+                        <div class="login_button_text">
+                            <p>SIGN IN</p>
+                        </div>
+                        <div class="account_button_graph_group">
+                            <div class="button_half_round_black">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="not_member_bg">
+                    <div class="already_signup_muted_field">
+                        <div class="already_signup_muted_text">
+                            <p>Not yet a member?</p>
+                        </div>
+                    </div>
+                    <a href="createAccount.html" class="not_member_signup_text">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
