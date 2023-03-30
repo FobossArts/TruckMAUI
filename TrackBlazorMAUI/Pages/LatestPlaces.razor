@@ -1,0 +1,128 @@
+﻿@page "/LatestPlaces.html"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Latest Places</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="phone_screen col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="navbar_header_bg col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="navbar_rectangle col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="navbar_hello_text col-8 col-sm-8 col-md-8 col-lg-8">
+                            <p>Hello, Name</p>
+                        </div>
+                        <div class="navbar_choose_trip_text col-8 col-sm-8 col-md-8 col-lg-8">
+                            <p>Choose your Trip</p>
+                        </div>
+                        <div class="navbar_search_bg col-11 col-sm-11 col-md-11 col-lg-11">
+                            <input type="search" class="navbar_search_field navbar_search_text col-11 col-sm-11 col-md-11 col-lg-11" placeholder=" Search">
+                            <a class="navbar_search_mic_bg" data-bs-toggle="modal" data-bs-target="#micModal">
+                                <i class="bi bi-mic"></i>
+                            </a>
+                        </div>
+                        <div class="navbar_avatar_bg">
+                            <div class="navbar_avatar"></div>
+                            <div class="navbar_avatar_status"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_icons_area">
+                    <a href="#" class="find_way_icon_field">
+                        <div class="find_way_icon_subtract">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="latest_place_nav_icon_field">
+                        <div class="latest_place_icon"></div>
+                    </a>
+                    <a href="#" class="saved_place_nav_icon_field">
+                        <div class="saved_place_icon"></div>
+                    </a>
+                    <a href="#" class="add_place_nav_icon_field">
+                        <div class="add_place_icon"></div>
+                    </a>
+                    <a href="#" class="truck_nav_icon_field">
+                        <div class="truck_icon"></div>
+                    </a>
+                </div>
+                <div class="latest_in_area_text">
+                    <p>Latest in the area</p>
+                </div>
+                <div class="popular_cafes_text">
+                    <p>Popular cafes</p>
+                </div>
+                <div class="scrolling-wrapper-cafes col-11 col-sm-11 col-md-11 col-lg-11" id="scroll">
+                    <a href="#" class="popular_cafes_img_1">
+                        <div class="popular_cafes_area_1">
+                            <div class="popular_cafes_1_main_text">
+                                <p>Billy Bill Bob’s Truck</p>
+                            </div>
+                            <div class="popular_cafes_1_second_text">
+                                <p>Iconic Cafe in the center of LA</p>
+                            </div>
+                            <div class="popular_cafes_1_range">
+                                <p>2.1m</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="popular_cafes_img_2">
+
+                    </a>
+                </div>
+                <a href="#" class="see_all_link">
+                    See all
+                </a>
+
+                <div class="popular_motels_text">
+                    <p>Popular Motels</p>
+                </div>
+                <div class="scrolling-wrapper-motels col-11 col-sm-11 col-md-11 col-lg-11" id="scroll">
+                    <a href="#" class="popular_motels_img_1">
+
+                    </a>
+                    <a href="#" class="popular_motels_img_2">
+
+                    </a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="micModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="mic_modal_bg">
+                            <div class="modal_header_custom">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="mic_modal_title">
+                                <p>Tracker map</p>
+                            </div>
+                            <a href="#" class="mic_modal_button">
+                                <div class="mic_modal_button_ellipse">
+                                    <div class="mic_modal_button_logo"></div>
+                                </div>
+                            </a>
+                            <div class="mic_modal_dots_group">
+                                <div class="mic_modal_dot_left"></div>
+                                <div class="mic_modal_dot_center"></div>
+                                <div class="mic_modal_dot_right"></div>
+                            </div>
+                            <div class="mic_modal_language">
+                                <p>English(United States)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
