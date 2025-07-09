@@ -1,0 +1,18 @@
+﻿@page "/Gift.html"
+<h3>TestPageForGIfts</h3>
+
+@code {
+    int counter = 3;
+}
+<div class="row"></div>
+@for (var i = 1; i <= 10; i++)
+{
+    if (i == counter)
+    {
+        <img src="../images/giftop.jpg">
+    }
+    else{
+    <img src="../images/giftcl.jpg">    
+    }
+}
+
